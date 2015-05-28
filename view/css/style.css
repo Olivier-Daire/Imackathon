@@ -1,0 +1,21 @@
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+
+#header{
+	height: 100%;
+	width: 100%;
+}
+
+#container{
+	width: 100%;
+}
+
+#container .year{
+	height: auto;
+	
+}
+
+#container .year .semestre h1{
+	height: auto;
+	font-family: 'Oswald', cursive;
+	text-align: center;
+}
