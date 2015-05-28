@@ -5,7 +5,7 @@
 	 */
 
 	require_once __DIR__.'/../controller/loginController.php';
-	require_once __DIR__.'/../controller/mainController.php';
+	require_once __DIR__.'/../controller/userProfileController.php';
 
 	$formType = $_POST['formType'];
 
@@ -24,11 +24,16 @@
 		
 		case 'changePassword':
 
-			if(!isset($_SESSION) || $_SESSION['userId'] === '') session_start();
-			$oldPassword = $_POST['oldPassword'];
-			$newPassword = $_POST['newPassword'];
-			$userId = $_SESSION['userId'];
-			UserProfileController::changePwd($userId, $oldPassword, $newPassword);
+			if(!isset($_SESSION) || $_SESSION['userLogin'] === '') session_start();
+			$oldPassword = $_POST['oldPwd'];
+			$newPassword = $_POST['newPwd'];
+			$newPassword2 = $_POST['newPwd2'];
+			$userLogin = $_SESSION['userLogin'];
+
+			if($newPassword === $newPassword2)
+					UserProfileController::changePwd($userLogin, $oldPassword, $newPassword);
+			else
+				header("Location: ../view/back.php");
 
 			break;
 
