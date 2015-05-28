@@ -18,9 +18,9 @@ body {
 	display: block;
 }
 
-#fade {
+#header #fade {
 	margin: 15px auto 0;
-	height: 40%;
+	height: 400px;
 	width: 80%;
 	background: rgb(244,197,110); /* Old browsers */
 	background: -moz-linear-gradient(-45deg,  rgba(244,197,110,1) 18%, rgba(188,242,106,1) 50%, rgba(53,122,191,1) 100%); /* FF3.6+ */
@@ -31,9 +31,9 @@ body {
 	background: linear-gradient(135deg,  rgba(244,197,110,1) 18%,rgba(188,242,106,1) 50%,rgba(53,122,191,1) 100%); /* W3C */
 }
 
-#header img {
+#header #fade img {
 	margin: auto;
-  	width: 25%;
+  	width: 350px;
   	padding-top: 40px;
 	display: block;
 }
