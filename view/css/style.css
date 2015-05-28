@@ -19,7 +19,7 @@ body {
 
 #fade {
 	margin: 15px auto 0;
-	height: 475px;
+	height: 40%;
 	width: 80%;
 	background: rgb(244,197,110); /* Old browsers */
 	background: -moz-linear-gradient(-45deg,  rgba(244,197,110,1) 18%, rgba(188,242,106,1) 50%, rgba(53,122,191,1) 100%); /* FF3.6+ */
@@ -32,7 +32,7 @@ body {
 
 #header img {
 	margin: auto;
-  	width: 445px;
+  	width: 25%;
   	padding-top: 40px;
 	display: block;
 }
