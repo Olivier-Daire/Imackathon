@@ -1,6 +1,8 @@
+
 html,
 body {
 	margin: 0;
+	padding: 0;
 	background-image: url("../images/mouchetes.png");
 	background-repeat: repeat;
 }
@@ -11,10 +13,41 @@ body {
 }
 
 #fade {
-	
+	margin: 0 auto 0;
+	width: 80%;
+	background: rgb(244,197,110); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(244,197,110,1) 18%, rgba(188,242,106,1) 50%, rgba(53,122,191,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(18%,rgba(244,197,110,1)), color-stop(50%,rgba(188,242,106,1)), color-stop(100%,rgba(53,122,191,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(244,197,110,1) 18%,rgba(188,242,106,1) 50%,rgba(53,122,191,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(244,197,110,1) 18%,rgba(188,242,106,1) 50%,rgba(53,122,191,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(244,197,110,1) 18%,rgba(188,242,106,1) 50%,rgba(53,122,191,1) 100%); /* IE10+ */
+	background: linear-gradient(135deg,  rgba(244,197,110,1) 18%,rgba(188,242,106,1) 50%,rgba(53,122,191,1) 100%); /* W3C */
 }
 
 #header img {
 	margin: 100px auto 0;
 	display: block;
 }
+
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+
+#header{
+	height: 100%;
+	width: 100%;
+}
+
+#container{
+	width: 100%;
+}
+
+#container .year{
+	height: auto;
+	
+}
+
+#container .year .semestre h1{
+	height: auto;
+	font-family: 'Oswald', cursive;
+	text-align: center;
+}
+
