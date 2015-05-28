@@ -17,12 +17,18 @@
 								<td>".$xml['filename']."</td>
 								<td>".$xml['editor']."</td>
 								<td>".$xml['date']."</td>
-								<td><form method='post' action='../helpers/formHandler.php'>
+								<td><form method='POST' action='../helpers/formHandler.php'>
 										<input type='text' name='formType' value='edit' hidden/>
 										<input type='text' name='filename' value=".$xml['filename']." hidden/>
 										<button type='submit'>Modifier</button>
 									</form>
 								</td>
+								<td><form method='POST' action='../helpers/formHandler.php' onsubmit='return confirm(\"Voulez vous vraiment supprimer ce fichier ?\")'>
+										<input type='text' name='formType' value='deleteFile' hidden/>
+										<input type='number' name='idFile' value=".$xml['id']." hidden/>
+										<button type='submit'>Delete</button>
+									</form>
+								</>
 							  </tr>";
 					}
 				?>

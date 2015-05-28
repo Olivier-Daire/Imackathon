@@ -37,6 +37,13 @@
 					UserProfileController::changePwd($userLogin, $oldPassword, $newPassword);
 			else
 				header("Location: ../view/back.php");
+			break;
+
+		case 'deleteFile':
+
+			$id = $_POST["idFile"];
+			xmlController::deleteXMLFile($id);
+			header("Location : ../view/list.php");
 
 			break;
 

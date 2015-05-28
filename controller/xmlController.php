@@ -25,5 +25,12 @@
 			//header("Location: ../view/connexion.php");
 		}
 
+		public static function deleteXMLFile($idFile){
+
+			$xml = Xml::deleteXMLFile($id);
+
+			return $xml;
+		}
+
 	}
 ?>
