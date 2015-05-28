@@ -6,6 +6,6 @@
 ```php
 $config = array('server' => "nom_du_serveur", 'dbUser' => "nom_user_database", 'pwd' => "user_password", 'database' => "nom_database");
 ```
-- Importer le fichier [hackathon.sql](Imackathon/hackathon.sql) via Phpmyadmin
+- Importer le fichier [hackathon.sql](hackathon.sql) via Phpmyadmin
 
 Il est ensuite possible de se connecter avec le compte "admin", mot de passe "admin"
