@@ -5,10 +5,10 @@
 	 */
 
 	require_once __DIR__.'/../controller/loginController.php';
-	require_once __DIR__.'/../controller/mainController.php';
+	require_once __DIR__.'/../controller/xmlController.php';
 
 	$formType = $_POST['formType'];
-
+	var_dump($_POST);
 	switch ($formType) {
 		case 'connexion':
 			$username = $_POST['login'];
@@ -17,8 +17,9 @@
 			Login::loginUser($username, $password);
 		
 			break;
-		case 'deconnexion':
-			Login::logoutUser();
+		case 'edit':
+			$id = $_POST['id'];
+			xmlController::editXML($id);
 			
 			break;
 		
