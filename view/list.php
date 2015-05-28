@@ -19,7 +19,7 @@
 								<td>".$xml['date']."</td>
 								<td><form method='post' action='../helpers/formHandler.php'>
 										<input type='text' name='formType' value='edit' hidden/>
-										<input type='number' name='id' value=".$xml['id']." hidden/>
+										<input type='text' name='filename' value=".$xml['filename']." hidden/>
 										<button type='submit'>Modifier</button>
 									</form>
 								</td>

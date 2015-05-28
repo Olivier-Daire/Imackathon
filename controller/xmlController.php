@@ -19,7 +19,8 @@
 			return $xml;
 		}
 
-		public static function editXML($id){
+		public static function editXML($filename){
+
 			// FIXME Redirect to XML editor
 			//header("Location: ../view/connexion.php");
 		}

@@ -19,9 +19,9 @@
 		
 			break;
 		case 'edit':
-			$id = $_POST['id'];
-			
-			xmlController::editXML($id);
+			$filename = $_POST['filename'];
+
+			xmlController::editXML($filename);
 			
 			break;
 		
