@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=640, maximum-scale=1, user-scalable=no, target-densitydpi=device-dpi">
 	
-		<title>IMAC ++</title>
+		<title>ROBIN</title>
 
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 		<link rel="icon" href="images/favicon.png" type="image/png" />
