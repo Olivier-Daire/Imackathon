@@ -18,6 +18,18 @@ body {
 	display: block;
 }
 
+#header h2 {
+	margin-top: 50px;
+	font-family: 'Oswald', cursive;
+	text-align: center;
+}
+
+#header p {
+	margin-top: 30px;
+	font-family: 'Oswald', cursive;
+	text-align: center;
+}
+
 #header #fade {
 	margin: 15px auto 0;
 	height: 400px;
