@@ -53,12 +53,9 @@
 		public static function deleteXMLFile($id){
 			$connexion = DBConnexion::connectToDB();
 
-
-			$bool = unlink("../xml/".$result['filename']);
-			if($bool === TRUE){
-				$query = $connexion->prepare('DELETE FROM xml WHERE id =  :id');
-				$query->execute(array('id' => $id));
-			}
+			$query = $connexion->prepare('DELETE FROM xml WHERE id =  :id');
+			$result = $query->execute(array('id' => $id));
+			
 
 		 	return $result;
 		}
