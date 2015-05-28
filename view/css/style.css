@@ -13,11 +13,11 @@ body {
 #header {
 	width: 100%;
 	margin: 0 auto 0;
-	height: 100%;
+	height: 100vh;
 }
 
 #fade {
-	margin: 0 auto 0;
+	margin: 15px auto 0;
 	height: 475px;
 	width: 80%;
 	background: rgb(244,197,110); /* Old browsers */
@@ -30,7 +30,7 @@ body {
 }
 
 #header img {
-	margin: 15px auto 0;
+	margin: auto;
   	width: 445px;
   	padding-top: 40px;
 	display: block;
