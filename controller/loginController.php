@@ -26,12 +26,13 @@
 
 				$userManager = new User();
 				$user = $userManager->getUserByLogin($username);
-				// TODO : enable password encryption
-				//$check = Password::check($password, $user['password']);
+				
+				$check = Password::check($password, $user['password']);
 
-				if ($user['login'] == $username && $user['password'] == $password) {
+				if ($check === TRUE) {
 					session_start();
-					$_SESSION['userId'] = $user['id'];
+					$_SESSION['userLogin'] = $user['login'];
+					header("Location: ../view/back.php");
 
 				} else {
 					header("Location: ../view/connexion.php");

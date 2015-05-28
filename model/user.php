@@ -22,5 +22,37 @@
 
 		 	return $result;
 		}
+
+		public function updateUserProfile($userLogin, $userProfileArray){
+
+			$connexion = DBConnexion::connectToDB();
+			$i = 0;
+
+			foreach ($userProfileArray as $key => $value) {
+				if ($value !== NULL){
+					if ($i === 0)
+						$parameters = $key." = :".$key;
+					else
+						$parameters .= ", ".$key." = :".$key;
+					$i++;
+				}
+			}
+
+			$query = $connexion->prepare('UPDATE user SET '.$parameters.' WHERE login = :userLogin');
+			foreach ($userProfileArray as $key => $value){
+				if ($value !== NULL)
+					$query->bindParam(':'.$key, $userProfileArray[$key]);
+			}
+			$query->bindParam(':userLogin', $userLogin);
+			$result = $query->execute();
+
+			if ($result)
+				return 0;
+			else
+				return -1;
+
+		}
+
+
 	}
 ?>
