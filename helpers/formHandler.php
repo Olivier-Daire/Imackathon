@@ -43,7 +43,7 @@
 
 			$id = $_POST["idFile"];
 			xmlController::deleteXMLFile($id);
-			header("Location : ../view/list.php");
+			
 
 			break;
 

@@ -29,12 +29,10 @@
 
 			$xmlFile = Xml::getXMLFileById($idFile);
 
-			if(unlink("../xml/".$xmlFile['filename']))
-				$xml = Xml::deleteXMLFile($idFile);
-			else
-				$xml = false;
+			unlink("../xml/".$xmlFile['filename']);
+			Xml::deleteXMLFile($idFile);
 
-			return $xml;
+			header("Location: ../view/list.php");
 		}
 
 	}
