@@ -20,25 +20,21 @@
 			$input2 = InputData::checkForEmpty($password);
 
 			if ($input === -1 || $input2 === -1){
-				//header("Location: ../view/connexion.php");
-				echo("mauvaise connexion");
-				return;
+				header("Location: ../view/connexion.php");
 			}
 			else {
 
 				$userManager = new User();
 				$user = $userManager->getUserByLogin($username);
+				// TODO : enable password encryption
+				//$check = Password::check($password, $user['password']);
 
-				$check = Password::check($password, $user['password']);
-
-				if ($check) {
+				if ($user['login'] == $username && $user['password'] == $password) {
 					session_start();
 					$_SESSION['userId'] = $user['id'];
-					
-					//header("Location: ../view/back.php");
+
 				} else {
-					//header("Location: ../view/connexion.php");
-					echo("error");
+					header("Location: ../view/connexion.php");
 				}
 			}
 
