@@ -6,6 +6,7 @@ body {
 	padding: 0;
 	background-image: url("../images/mouchetes.png");
 	background-repeat: repeat;
+	position: relative;
 }
 
 #header {
@@ -15,6 +16,7 @@ body {
 
 #fade {
 	margin: 0 auto 0;
+	height: 475px;
 	width: 80%;
 	background: rgb(244,197,110); /* Old browsers */
 	background: -moz-linear-gradient(-45deg,  rgba(244,197,110,1) 18%, rgba(188,242,106,1) 50%, rgba(53,122,191,1) 100%); /* FF3.6+ */
@@ -26,7 +28,9 @@ body {
 }
 
 #header img {
-	margin: 100px auto 0;
+	margin: 15px auto 0;
+	width: 30%;
+  	padding-top: 40px;
 	display: block;
 }
 
