@@ -13,6 +13,8 @@ body {
 #header {
 	width: 100%;
 	margin: 0 auto 0;
+	height: 100%;
+}
 }
 
 #fade {
@@ -33,11 +35,6 @@ body {
   	width: 445px;
   	padding-top: 40px;
 	display: block;
-}
-
-#header{
-	height: 100%;
-	width: 100%;
 }
 
 #container{
