@@ -1,4 +1,4 @@
-<?
+<?php
 error_reporting(0);
 
 $xmlString;
@@ -26,7 +26,9 @@ if (isset($_FILES['xmlfile'])){
 <link href="css/main.css" type="text/css" rel="stylesheet"/>
 <script type="text/javascript">
 $(document).ready(function(){
-<? if ($target && $xml){ ?>
+<?php 
+	if ($target && $xml){ 
+?>
 	GLR.messenger.show({msg:"Loading XML..."});
 	console.time("loadingXML");
 	
@@ -38,7 +40,7 @@ $(document).ready(function(){
 		xmlEditor.renderTree();
 		$("button#saveFile").show().click(function(){
 			GLR.messenger.show({msg:"Generating file...", mode:"loading"});
-			$.post("do/saveXml.php", {xmlString:xmlEditor.getXmlAsString(), xmlFilename:"<?=$xmlFilename?>"}, function(data){
+			$.post("do/saveXml.php", {xmlString:xmlEditor.getXmlAsString(), xmlFilename:"<?php=$xmlFilename?>"}, function(data){
 				if (data.error){
 					GLR.messenger.show({msg:data.error,mode:"error"});
 				}
@@ -53,12 +55,12 @@ $(document).ready(function(){
 			}, "json");
 		});
 	});
-<? } else { ?>
+<?php } else { ?>
 	$("#xml").html("<span style='font:italic 11px georgia,serif; color:#f30;'>Please upload a valid XML file.</span>").show();
-	<? if ($target && !$xml){ ?>
+	<?php if ($target && !$xml){ ?>
 	GLR.messenger.showAndHide({msg:"Uploaded file is not valid XML and cannot be edited.", mode:"error", speed:3000});
-	<? } ?>
-<? } ?>
+	<?php } ?>
+<?php } ?>
 //	$("#todos, #links").height($("#about").height()+"px");
 });
 </script>
@@ -69,7 +71,7 @@ $(document).ready(function(){
 		<a href="index.php" id="home"></a>
 	</div>
   
-<? /*   <div style="margin:50px auto; width:500px; text-align:center; font:helvetica neue, arial;">I'm working on this at the moment so it might be funky for a bit. And yes, I'll try not to make changes in "production" in the future.</div> */ ?>
+<?php /*   <div style="margin:50px auto; width:500px; text-align:center; font:helvetica neue, arial;">I'm working on this at the moment so it might be funky for a bit. And yes, I'll try not to make changes in "production" in the future.</div> */ ?>
   
 	<form id="uploadForm" action="index.php" method="post" enctype="multipart/form-data">
 		<label for="xmlfile">Specify XML file to edit:</label>
@@ -120,7 +122,7 @@ $(document).ready(function(){
 			</p>
 		</div>
 	</div>
-	<? /* if ($xmlString){ ?><textarea style="display:none;" id="xmlString"><?=$xmlString?></textarea><? } */ ?>
+	<?php /* if ($xmlString){ ?><textarea style="display:none;" id="xmlString"><?=$xmlString?></textarea><?php } */ ?>
 	
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");

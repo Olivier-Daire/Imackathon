@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE track PUBLIC "-//University of Marne-la-Vallee//cahier des modules//EN" "https://ei2000.univ-mlv.fr/MLV/CM/cdm3.dtd" >
+<track xmlns="http://www.umlv.fr/2005/cdm" xmlns:xi="http://www.w3.org/2001/XInclude"
+	name="IMAC" RF="Matthieu Constant"
+	fullname="Image, Multimédia, Audiovisuel et Communication"
+	email="Mathieu.Constant@u-pem.fr">
+	<year number="3" RA="Venceslas Biri" email="biri@u-pem.fr">
+
+<!--
+<course-part name="" coefficient="" acronym="" APO="">
+		
+					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite> </prerequisite>
+					</prerequisites>
+
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="" email="" />
+						<teacher name="" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective></objective>
+						<skill></skill>
+						<skill></skill>
+                                        	<plan>
+							<part></part>
+						</plan>
+					</content> 
+					<bibliography>
+						<entry></entry>				
+					</bibliography>
+					 
+				</course-part>						
+
+-->
+
+		<semester  number="1" APO="">
+
+	
+
+			<ue name="Projets pré-professionels" ects="6" acronym="" APO="">
+				<course-part name="Projet Web 1" coefficient="3" acronym="" APO="">
+				<!-- technologie mobile -->
+					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite>Avoir suivi les cours de programmation et de Management des précédentes années </prerequisite>					
+					</prerequisites>
+
+					<evaluation cc="false" exam="false" project="true" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="??" email="" />
+						<teacher name="?" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Ce cours utilise les modalités de la pédagogie par projet. Ce cours s'articule autour de la définition et de la conception de projet étudiant concernant le développement d'application sur appareil mobile (smartphone &amp; tablettes). Les étudiants, en groupe, assure la définition, la conception, la planification, la réalisation du projet. Ces projets peuvent être en partenariat avec des éléments extérieurs et/ou être en lien avec d'autres projets académiques.</objective>
+
+
+						<skill>Management et conduite de projet web, avec notamment des méthodes agiles.</skill>
+						<skill>Développement informatique d'une application pour smartphone ou tablette</skill>
+						<skill>Travail en équipe sur une réalisation commune</skill>
+						<skill>Développement de la communication sur le produit final</skill>
+                                        	<plan>
+							<part>Le contenu est fortement dépendant des applications réalisés. Néanmoins l'enseignement se caractérise par le développement de connaissances et de compétences sur les méthodes de conduite de projet pour développement sur mobile &amp; tablette et met l'accent sur le développement des compétences en programmation sur mobile &amp; tablette. L'OS visé est android et à l'issue du projet, les étudiants doivent être en capacité de développer des applications sur cet OS. 20H d'accompagnement à la découverte de la programmation android sont prévus en début d'année.</part>
+						</plan>
+					</content> 
+				
+
+
+				</course-part>				
+				<course-part name="Projet Web 2" coefficient="3" acronym="" APO="">
+				<!-- projet web -->
+					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />
+
+					<prerequisites>
+						<prerequisite>Avoir suivi les cours de programmation web et de Management des précédentes années </prerequisite>					
+						
+					</prerequisites>
+
+					<evaluation cc="false" exam="false" project="true" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="??" email="" />
+						<teacher name="?" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Ce cours utilise les modalités de la pédagogie par projet. Ce cours s'articule autour de la définition et de la conception de projet étudiant concernant le développement d'application ou de site sur Internet (tout média confondu). Les étudiants, en groupe, assure la définition, la conception, la planification, la réalisation du projet. Ces projets peuvent être en partenariat avec des éléments extérieurs et/ou être en lien avec d'autres projets académiques.</objective>
+
+						<skill>Management et conduite de projet web, avec notamment des méthodes agiles.</skill>
+						<skill>Développement informatique d'une application ou d'un site complet</skill>
+						<skill>Travail en équipe sur une réalisation commune</skill>
+						<skill>Développement de la communication sur le produit final</skill>
+                                        	<plan>
+							<part>Le contenu est fortement dépendant des applications ou des sites réalisés. Néanmoins l'enseignement se caractérise par le développement de connaissances et de compétences sur les méthodes de conduite de projet agile, sur une bonne compétence de développement front-end &amp; back-end et de mise en œuvre des ressources disponibles, notamment de l'ensemble des frameworks et plateformes de développement web (là encore front-end &amp; back-end).</part>
+						</plan>
+					</content> 
+					<bibliography>			
+					</bibliography>
+
+
+				</course-part>
+				<course-part name="Projet 3D 1" coefficient="3" acronym="" APO="">
+				<!-- réalité virtuelle -->
+					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite>Connaissance générale de l'image numérique et des techniques de traitement d'images. Connaissance d'au moins un langage de programmation (pour le projet) </prerequisite>
+					</prerequisites>
+
+					<evaluation cc="false" exam="false" project="true" tp="false" speech="true" report="false" />
+					
+					<who>
+						<accountant name="Vincent Nozick" email="" />
+						<teacher name="Vincent Nozick" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Introduction des techniques et des enjeux de la réalité virtuelle. Etre capable de réaliser un projet de réalité virtuelle, si possible pour un projet conjoint avec la matière de son choix.</objective>
+						<skill>Avoir une culture général des techniques de réalité virtuelle, en particulier pour le rendu stéréoscopique ainsi que pour la réalité augmentée. </skill>
+                                        	<plan>Vue d'ensemble de la réalité virtuelle
+
+							<part>Le rendu stéréoscopique et ses enjeux technologiques et physiologiques</part>
+							<part>Les techniques de réalité augmentée</part>
+							<part>Les dispositifs de réalité virtuelle</part>
+							<part>Les techniques de vision par ordinateur (calibrer une camera, reconstruction 3D)</part>
+							<part>Un gros projet</part>
+						</plan>
+					</content> 
+					
+
+				</course-part>				
+				<course-part name="Projet 3D 2" coefficient="3" acronym="" APO="">
+				<!-- jeux videos -->
+					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite>Bonnes connaissances en C++ (et/ou Java/C#, le cas échéant). </prerequisite>
+					</prerequisites>
+
+							<evaluation cc="false" exam="false" project="true" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="Benoît Neil" email="" />
+						<teacher name="Benoît Neil" role="cours" email="" civilite="Mr" />
+						
+					</who>
+					<content>
+						<objective>Les futurs ingénieurs doivent réaliser un jeu vidéo de la conception à la recette, et cela en lien étroit avec le « client » (ici, l'enseignant tient ce rôle).
+« Jeu vidéo » est une matière technique avant tout, permettant de pratiquer et de monter en compétences sur : le génie logiciel, le travail en équipe pluridisciplinaire, la qualité du développement.
+
+(Note : Il ne s'agit pas d'un cours de game design, ni de production artistique.)</objective>
+						<skill>Se comporter en professionnel face à un client.</skill>
+						<skill>Savoir gérer en équipe et coordonner les efforts.</skill>
+						<skill>Planifier les développements, anticiper les problèmes.</skill>
+						<skill>Adapter les décisions faire face à un délai court.</skill>
+						<skill>Comprendre l'utilité et les limites des cycles de développement, et notamment du cycle en 'V'</skill>
+						<skill>Écrire du code performant et maintenable.</skill>
+						<skill>Savoir quand chercher à réutiliser du code existant.</skill>
+                                        	<plan>
+<part>
+La matière est présentée sous forme de cours-projet, dans lequel l'enseignant tient le double rôle de client et de support. Les étudiants sont généralement par groupes de 5 à 7 personnes.
+
+(Note : En pratique, les étudiants se « spécialisent » vers le milieu du projet, en fonctions de leurs affinités et compétentes. Cela reste compatible avec les objectifs de la matière.)
+</part>
+
+<part>Le projet comporte 3 livrables notés :
+<part>le CDCF (cahier des charges fonctionnelles)
+L'accent est mis sur les cas d'utilisation (« use cases »), les fonctionnalités, le fait que le document serve de base au CDCT, et qu'il soit un engagement contractuel auprès du client.</part>
+<part>le CDCT (cahier des charges techniques)
+Le CDCT a pour but de présenter les choix techniques, de réduire les incertitudes, et de planifier de façon macroscopique les développement.</part>
+<part>le projet finalisé, comportant : binaires et données, code source, et document dit de « post-mortem » (retour d'expérience de l'étudiant sur son propre travail).</part>
+</part>
+
+<part>L'enseignant fournit, sous forme de cours et avant chaque phase, une explication détaillée du résultat attendu.
+Les étudiants peuvent à tout moment échanger avec leur enseignant pendant les séances, ainsi qu'à distance.</part>
+							
+						</plan>
+
+
+
+
+.
+
+
+
+
+					</content> 
+		
+
+				</course-part>
+				<course-part name="Projet Audiovisuel" coefficient="3" acronym="" APO="">
+				
+					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />
+					
+
+					<evaluation cc="false" exam="false" project="true" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="" email="" />
+						<teacher name="" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Ce cours utilise les modalités de la pédagogie par projet. Ce cours s'articule autour de la réalisation d'un cours métrage développé entièrement par les étudiants. Les étudiants, en groupe, assure la scénarisation, la préproduction, la production et la post-production de ce cours métrage. Ces projets peuvent être en partenariat avec des éléments extérieurs et/ou être en lien avec d'autres projets académiques.</objective>
+						<skill>Capacité à produire un court métrage (rôle de producteur)</skill>
+<skill>Pré production dans le domaine audiovisuel</skill>
+<skill>Assurer la production d'un court métrage : réalisation (dont direction d'acteur), lumière, son, cadrage.</skill>
+<skill>Faire la post-production du court métrage : étalonnage, mixage, effets spéciaux.</skill>
+	                                 	<plan>
+							<part>Le contenu est fortement dépendant des court métrages réalisés. Néanmoins l'enseignement se caractérise par le développement de compétence en pré-production, en production et en post-production. Les étudiants sont suivis par un professionnel qui les accompagne dans la réalisation de ce projet. Les projets peuvent ensuite être diffusés dans des festivals.</part>
+						</plan>
+					</content> 
+		
+				</course-part>				
+				<course-part name="Projet Multimédia" coefficient="3" acronym="" APO="">
+				<!-- 3DS max -->
+					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite>Aucun</prerequisite>
+					</prerequisites>
+
+					<evaluation cc="true" exam="true" project="true" tp="true" speech="false" report="false" />
+					
+					<who>
+						<accountant name="Patrick Louise-Alexandrine" email="" />
+
+						<teacher name="Patrick Louise-Alexandrine" role="td" email="" civilite="M" />
+						
+					</who>
+					<content>
+						<objective>Maîtriser les principales fonctionnalités de 3D STUDIO MAX</objective>
+						<skill>Savoir modéliser des objets</skill>
+						<skill>Réaliser une animation</skill>
+						<skill>Créer et appliquer des textures</skill>
+						<skill>Créer et gérer les lumières et les caméras</skill>
+						<skill>Gérer les paramètres du rendu</skill>
+
+                                        	<plan>
+							<part>INTRODUCTION: <part>Présentation de l'interface</part><part>Gestion des vues</part><part>Création et gestion des paramètres de primitives</part><part>Propriété de transformation d'un objet</part><part>Création et gestion des paramètres de caméra</part><part>Introduction au rendu</part><part>Import / export des fichiers</part></part>
+							<part>MODELISATION: <part>Modélisation procédurale</part><part>Modélisation par spline</part><part>Technique de modélisation organique</part><part>Technique de Box modelling</part></part>
+							<part>ECLAIRAGE_01:<part>Les différents types de lumière</part><part>Les différents types d'ombres</part><part>Inclusion/ exclusion des objets</part><part>La lumière volumétrique</part><part>La vue lumière</part><part>Édition et gestion des paramètres</part></part>
+							<part>TEXTURE AND SHADER_01: <part>Textures procédurales</part><part>UVW Map</part><part>Unwrap</part><part>Shader</part><part>Sub surface scatterring</part></part>
+							<part>ECLAIRAGE_02: <part>Projection de map</part><part>HDRI</part><part>Radiosité</part><part>Mental ray</part></part>
+							<part>ANIMATION_01: <part>Système de parentage et hiérarchie</part><part>Les clefs d'animation</part><part>Les boucles</part><part>Les contraintes</part></part>
+							<part>SETUP: <part>Rig d'objets</part><part>Rig de décor</part><part>Rig de personnage</part><part>Expressions</part><part>Création de fenêtre</part></part>
+							<part>ANIMATION_02: <part>12 principes de l'animation</part><part>Exercices d'animation</part></part>
+							<part>RENDU: <part>Gestion et création de passes</part><part>Gestion du moteur de rendu</part></part>
+						</plan>
+					</content> 
+					<bibliography>
+						<entry>http://docs.autodesk.com/3DSMAX/16/ENU/3ds-Max-Help/index.html?url=files/GUID-AA81EA1A-B4E1-4B47-B3AE-7C4AD62E24FF.htm,topicNumber=d30e3789,hash=GUID-F10EB01A-C1B8-422F-AE10-5AC53854C9EE</entry>
+					</bibliography>
+
+
+				</course-part>
+			</ue>
+			<ue name="Projets pré-professionels optionnels" ects="6" acronym="" APO="">				
+			</ue>
+			<ue name="Compétences" ects="3" acronym="" APO="">
+				<course-part name="Design 2" coefficient="1" acronym="" APO="">
+				<!-- prog web avancée -->				
+					<volume course="20" td="0" tp="0" project="0" exam="0" homework="0" />
+		
+
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="" email="" />
+						<teacher name="" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Les étudiants devront développer une prise de conscience du contexte historique des nouveaux médias. On étudiera la conception ainsi que la combinaison de divers types de médias au sein des oeuvres interactives. Le cours s'attachera à développer des points conceptuels et pratiques dans le but d’affiner la compréhension de la notion d’interactivité numérique. On proposera des support de cours complémentaires en format électronique par email à la demande pour la partie pratique (principalement "flash"). L’un des objectifs principaux de ce cours est d’aider les étudiants à appliquer les considérations théoriques réunis lors des ateliers, au sein de leur projet et les aider à formuler les aspects esthétiques et pragmatiques de leur création et de leur connaissances.</objective>
+
+						<skill>Comprendre le fonctionnement et l'impact esthétique des interfaces interactives</skill>
+						<skill>Aborder les notions d'UX design</skill>
+                                        	<plan>
+							<part>L'étudiant sera confronté à diverses formes historiques d'interfaces interactives. Il devra en comprendre le fonctionnement, ainsi que l’impact esthétique. Il devra intégrer ces procédés afin d’enrichir sa propre démarche esthétique. Pour cela, il sera demandé à l'étudiant de réaliser des expériences pratiques de recherche, de conception autour d’un projet collectif. Ce projet pourra être développé sur de nombreux supports par exemple, sur CD-ROM, Internet, cela pourra être un logiciel, un jeu vidéo, une galerie virtuelle ou une installation in situ. La notion de travail d'équipe est importante pour ce cours puisqu’elle permet de se placer dans des conditions de travail réelles..
+</part>
+							<part>Au cours du semestre un projet sera donc réalisé, ceci permettra à l’étudiant lors de son élaboration d'affiner les notions théoriques acquises qui sont inextricablement liées à l'interaction multimédia, la performance et le design comme une pratique sociale et culturelle. Un élément essentiel de ce cours sera pour les étudiants de définir eux même leur pratique artistique au sein de l'histoire de l'informatique, la théorie esthétique et la technologie.</part>
+						</plan>
+					</content> 
+		
+
+
+			
+
+				</course-part>	
+				<course-part name="Langage de script" coefficient="1" acronym="" APO="">
+				<!-- Python -->
+					<volume course="0" td="20" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite>Notions de programmation orientée objet, connaissance basique du html et du protocole http. </prerequisite>
+					</prerequisites>
+
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="Jean-Yves Thibon" email="" />
+						<teacher name="Jean-Yves Thibon" role="td" email="" civilite="Mr" />
+						
+					</who>
+					<content>
+						<objective>Pouvoir utiliser Python comme langage de script ou pour le développement de sites web.</objective>
+						<skill>Atteindre les objectifs ci-dessus.</skill>
+                                        	<plan>
+							<part>Les bases du langage Python  (python 2): syntaxe, types, structures de contrôle, classes, décorateurs. Ecriture de scripts pour des tâches courantes d'administration. </part>
+							<part>Programmation orientée développement web : interaction avec des serveurs (modules urllib, urllib2, requests), analyse du html (utilisation d'expressions régulières, HTMLParser, beautifulsoup), écriture de serveurs (xmlrpclib, cgi, flask …).  </part>
+							<part>Amélioration des performances : itertools, utilisation de modules en C (ctypes, cython …).</part>
+							
+						</plan>
+					</content> 
+					<bibliography>
+						<entry>Mark Lutz, Learning Python (O'Reilly)</entry>				
+						<entry>http://www.python.org</entry>	
+					</bibliography>
+				</course-part>
+
+				<course-part name="Physique et signal 2" coefficient="1" acronym="" APO="">
+					<volume course="8" td="12" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite> </prerequisite>
+					</prerequisites>
+
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="" email="" />
+						<teacher name="" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Présenter des techniques de modélisation et de simulation de phénomènes physiques </objective>
+
+						<skill>Aborder les notions d'animation et de simulation</skill>
+						<skill>Savoir programmer et paramétrer des systèmes à particules physiques</skill>
+						<skill>Exploiter des systèmes physiques dans un environnement plus large de programmation : démo / moteur de jeu ou de simulation</skill>
+                                        	<plan>
+							<part>Le terme 'animation' est généralement employé pour des applications ludiques et culturelles (jeux, cinéma, effets spéciaux) alors que le terme 'simulation' indique des applications scientifiques plus rigoureuses et exigeantes.
+Néanmoins, de plus en plus, l'animation à recours aux méthodes de la simulation pour 'synthétiser' des phénomènes dynamiques trop complexes à décrire : solide articulés, objets déformables, cassables, liquides, explosions…</part>
+							<part>Pour synthétiser ces phénomènes, il faut d'une part disposer d'un bon système de modélisation décrivant, sous la forme de systèmes différentiels, des lois physiques élémentaires (dynamique des solides articulés, des corps déformables, des fluides....) et d'autre part d'un moteur de simulation dont le rôle est de produire une résolution numérique de ces systèmes.</part>
+							<part>Ce cours ne détaille pas les aspects 'physiques' des modèles (on se limite quelques lois très simples) mais explore à travers elles les différentes techniques de modélisation/simulation (animatique, éléments finis, différences finies, masses-ressorts,systèmes de particules) en pointant quelques particularités, contraintes et limites propres à l'univers numérique (discret). C'est sûr ces aspects que se fait la distinction entre 'animation' et 'simulation'.</part>
+
+
+						</plan>
+					</content> 
+		
+
+
+
+				</course-part>	
+				<course-part name="Programmation 3D avancée" coefficient="1" acronym="" APO="">
+					<volume course="0" td="20" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite> Bonnes connaissances théoriques du C++, un minimum d'expérience pratique.</prerequisite>
+					</prerequisites>
+
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="Benoît Neil" email="" />
+
+						<teacher name="Benoît Neil" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Ce cours a pour but de sensibiliser :
+aux techniques de programmation avancées, aux bonnes pratiques de codage afin de lire et d'écrire du code maintenable et compréhensible par d'autres, à la réutilisation de bibliothèques, et de mettre le tout en pratique.</objective>
+						<skill>Savoir travailler en équipe : reprendre un projet existant, laisser un projet pour une autre personne.</skill>
+						<skill>Écrire du code maintenable.</skill>
+						<skill>Utiliser et maîtriser les techniques avancées proposées.</skill>
+						<skill>Savoir quand chercher à réutiliser du code existant.</skill>
+						<skill>Savoir prendre en main rapidement des documentations complexes de bibliothèques.</skill>
+
+
+
+
+
+
+Un examen écrit vient compléter l'évaluation faite en TD.
+                                        	<plan>
+<part>La matière est présentée sous forme de TDs, et un cours de 2 heures (au début) sert de base à tous les travaux, et sur lequel les étudiants reviennent régulièrement. Le cours traite notamment de :
+							<part>Bonnes pratiques de codage. L'accent est mis sur la maintenabilité et le travail en équipe Détection d'erreurs, documentation, normes d'écriture, la bonne utilisation des « casts » (transtypages) et du « const », initialisation/destruction/copie, l'obsolescence de certaines écritures, le RAII, le coût CPU de certaines écritures, etc.</part>
+<part>Tour d'horizon de bibliothèques : l'idée est d'inciter le futur ingénieur à réutiliser et augmenter l'existant, plutôt que de réinventer. Il ne s'agit pas de faire un inventaire exhaustif, mais bien de montrer la démarche de choix de bibliothèques et d'en voir quelques unes. Le thème est ouvert ensuite sur quelques licences logicielles courantes (distinctions copyright / copyleft, GPL, LGPL, etc.)</part>
+<part>Techniques avancées. Outre une très brève révision des structures et algorithmes courants, cette partie aborde des points qui seront des briques nécessaires aux TDs. Diverses méthodes de callbacks, un bref aperçu des templates et de la métaprogrammation, design pattern « visitor », smart pointers, etc.
+</part></part>
+<part>Les TDs reprennent ainsi ces concepts, avec en plus :
+<part>La reprise de projet : les étudiants partent d'un projet existant, comme dans la plupart des projets d'entreprise. Ici, environ 200 à 300 ko de C++, plus toutes les bibliothèques incluses.</part>
+<part>Des thèmes supplémentaires : portage (code « cross-platform » et méta-makefile), compilation (liens synamiques, plugins...), multi-threading, optimisation, algorithmie, graphe de scène et rendu 3D.</part></part>
+
+						</plan>
+					</content> 
+					<bibliography>
+						<entry>Supports de cours, supports de TD et code source de départ.</entry>
+						<entry>« Effective C++ » &amp; « More effective C++ » de Scott Meyers</entry>
+						<entry>Articles divers de Bjarne Stroustrup</entry>
+						<entry>Design patterns – GOF</entry>								
+					</bibliography>
+
+				</course-part>	
+				﻿				<course-part name="Cinéma 3" coefficient="1" acronym="" APO="">
+				<!--Cinéma 3 = Langage du cinéma-->
+					<volume course="20" td="0" tp="0" project="0" exam="0" homework="0" />
+
+					<prerequisites>
+						<prerequisite>Connaissance de l'Histoire du Cinéma</prerequisite>
+						<prerequisite>Connaissance des pratiques contemporaines liées au Cinéma et à la vidéo</prerequisite>
+						<prerequisite>Avoir réalisé un court métrage</prerequisite>
+						<prerequisite>Bonne pratique de la post-production (3DS max, After effects)</prerequisite>
+					</prerequisites>
+
+					<evaluation cc="true" exam="false" project="true" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="Francis Lenoir" email="francis.lenoir@gmail.com" />
+						<teacher name="Francis Lenoir" role="cours" email="francis.lenoir@gmail.com" civilite="Mr" />
+					</who>
+
+					<content>
+						<objective>Ce cours vise, à partir d'une séance d'analyse du film Bienvenue à Gattaca, à se saisir des enjeux de la mise en scène au cinéma. On y aborde entre autre, et par la visite d'un plateau TV (Cyclo pour incrustation), le jeu entre la construction des espaces et la dramaturgie liée à la représentation télévisuelle. Les étudiants seront amenés à concevoir une mise en scène virtuelle pour en réaliser ensuite une incrustation sur le plateau en question.</objective>
+						
+						<skill>Savoir analyser un film du point de vue de la mise en scène</skill>
+						<skill>Concevoir une mise en scène virtuelle pour un plateau TV</skill>
+						<skill>Connaître les enjeux de pré-production et de post-production pour un média télévisuel</skill>
+						
+						<plan>
+							<part>Séances d'analyse d'extraits de scènes du film Bienvenue à Gattaca</part>
+							<part>Visite d'un plateau TV propre au montage d'incrustations</part>
+							<part>Séances de conception d'un décor virtuel</part>
+							<part>Réalisation des incrustations sur le plateau</part>
+						</plan>
+					</content>
+					<bibliography>
+					</bibliography>
+				</course-part>
+				
+				<course-part name="Son" coefficient="1" acronym="" APO="">
+				<!--Son = Sound design-->
+					<volume course="0" td="20" tp="0" project="0" exam="0" homework="0" />
+
+					<prerequisites>
+						<prerequisite>Il est nécessaire d'avoir suivi le cours d'IMAC 1 présentant les techniques d'enregistrement et d'édition sonore, afin d'être déjà à l'aise sur le logiciel utilisé lors des cours de sound design. Une connaissance de la musique peut être un plus mais n'est pas indispensable.</prerequisite>
+					</prerequisites>
+
+					<evaluation cc="false" exam="false" project="true" tp="true" speech="false" report="false" />
+					
+					<who>
+						<accountant name="Jonathan Lefevre" email="jon.lefevre@gmail.com" />
+						<teacher name="Jonathan Lefevre" role="cours" email="jon.lefevre@gmail.com" civilite="Mr" />
+					</who>
+
+					<content>
+						<objective>L'objectif de ces séances est de familiariser les élèves avec la création de contenu audio, d'un point de vue artistique et pratique, dans le but d'illustrer différents types de supports : animations, infographies animées, jeux vidéos, courts métrages, publicités. Ce cours peut donc venir compléter les compétences des élèves, qui sont principalement amenés à travailler l'image lors de leur cursus.</objective>
+						
+						<skill>Maîtriser le logiciel Pro Tools à des fins créatives.</skill>
+						<skill>Savoir appliquer les principaux traitements sonores, et quels sont leurs utilités dans la création de son.</skill>
+						<skill>Pouvoir s'adapter au besoins d'une vidéo afin d'imaginer le contenu audio nécessaire (en excluant les dialogues et la musique).</skill>
+						<skill>Savoir designer une ambiance sonore indépendante.</skill>
+						<skill>Connaître les principes de base de la synthèse sonore.</skill>
+						
+						<plan>
+							<part>Théorie : utilisation du son dans la vidéo</part>
+							<part>Théorie : utilisation et rôle du son dans le jeu vidéo</part>
+							<part>Révisions sur Pro Tools : édition sonore, enregistrement</part>
+							<part>Mixage audio</part>
+							<part>Effets sonores temporels</part>
+							<part>Effets sonores dynamiques</part>
+							<part>Effets sonores fréquentiels</part>
+							<part>Synthèse sonore soustractive</part>
+							<part>Utilisation d'instruments virtuels pour la création de sons musicaux</part>
+							<part>Application sur un projet uniquement sonore</part>
+							<part>Application sur un projet lié à l'image (vidéo, court métrage ou jeu vidéo).</part>
+						</plan>
+					</content>
+					</course-part>
+	
+			
+			</ue>
+			<ue name="Spécialité" ects="4" acronym="" APO="">
+				<course-part name="Spécialité Web 1" coefficient="2" acronym="" APO="">
+				<!-- e-marketing -->
+					<volume course="20" td="0" tp="0" project="0" exam="0" homework="0" />
+
+
+					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="" email="" />
+						<teacher name="" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Pour tirer profit des nombreuses opportunités de l’e-commerce, il convient de maîtriser les tendances et les évolutions stratégiques en cours. La réussite sur ce canal de vente suppose un site performant, un bon positionnement, une animation commerciale efficace, une communication pertinente mais aussi des technologies et une organisation adaptées.
+Ces points sont abordés dans ce cours d’e-commerce, principalement pour le modèle Business to Consumer mais aussi B to B. </objective>
+						<skill>Connaissances du modèle Business to Consumer mais aussi B to B</skill>
+						<skill>Mise en place du e-commerce pour un site web</skill>
+                                        	<plan>
+							<part>Il alterne théorie avec de nombreux exemples et d'études de cas (boutique d’evene.fr, sncf.fr, easyvoyages …) et ce, à travers les thématiques présentées ci-après : 
+<part> Chiffres clefs et étude sur les pratiques et le e-commerce </part>
+<part>Panorama des marchés du voyages, de la formation, de la vente de matériel informatique et de la musique</part>
+<part>Panorama des modèles d’affaires</part>
+<part>Mettre en œuvre le e-commerce</part>
+<part>Choisir sa solution de paiement </part>
+<part>Personnaliser la relation client sur internet  </part>
+<part>Créer de la valeur pour le client </part></part>
+						</plan>
+					</content> 
+					<bibliography>
+					</bibliography>
+
+				</course-part>
+				<course-part name="Spécialité Web 2" coefficient="2" acronym="" APO="">
+				<!-- cloud computing -->
+					<volume course="20" td="0" tp="0" project="0" exam="0" homework="0" />
+
+					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="" email="" />
+						<teacher name="" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Ce cours a pour objectif d'initier au cloud computing.</objective>
+						<skill>Comprendre les enjeux du cloud computing</skill>
+						<skill>Concevoir une solution à un problème en utilisant le cloud comuting</skill>
+                                        	
+					</content> 
+					
+					 
+				</course-part>
+				<course-part name="Spécialité 3D 1" coefficient="2" acronym="" APO="">
+				<!-- CPGU -->
+					<volume course="0" td="20" tp="0" project="0" exam="0" homework="0" />
+
+					<prerequisites>
+						<prerequisite>Une bonne connaissance de la programmation séquentielle et notamment du C</prerequisite>
+						<prerequisite>Une connaissance de la programmation graphique OpenGL est un plus </prerequisite>
+						
+					</prerequisites>
+
+					<evaluation cc="true" exam="true" project="true" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="" email="" />
+						<teacher name="" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>L'objectif de ce cours est de donner les bases de la programmation massivement parallèle dans le contexte de la programmation GPGPU. A l'issu de la formation, les étudiants pourront concevoir des applications parallèles exploitant les ressources des cartes graphiques actuelles.</objective>
+
+						<skill>Développer des algorithmes simples exploitant les possibilités actuelles des cartes graphiques</skill>
+						<skill>Connaître les notions globales et des paradygmes de la programmation parallèle : « map, gather, stencil, scatter, transpose »</skill>
+						<skill>Savoir coder en CUDA</skill>
+                                        	<plan>
+							<part>Le cours s'articule sur un support numérique de cours et sur un ensemble d'enseignements pratiques sur machine. La partie théorique est vérifiée incrémentalement par l'enseignant et les réalisations pratiques sont évaluées séance par séance. La première séance s'attardent sur l'exploitation du pipeline graphique pour du traitement d'images. Les séances suivantes abordent CUDA avec des problématiques de plus en plus complexes.</part>
+						</plan>
+					</content> 
+					<bibliography>
+				<entry>http://docs.nvidia.com/cuda/cuda-getting-started-guide-for-linux/index.html#axzz3I0yIHAmy</entry>
+<entry>CUDA by Example: An Introduction to General-Purpose GPU Programming</entry>
+</bibliography>
+
+				</course-part>
+				<course-part name="Spécialité 3D 2" coefficient="2" acronym="" APO="">
+				<!-- prog. avancée -->
+					<volume course="0" td="20" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite> Bonnes connaissances théoriques du C++, un minimum d'expérience pratique.</prerequisite>
+					</prerequisites>
+
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="Benoît Neil" email="" />
+
+						<teacher name="Benoît Neil" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Ce cours a pour but de sensibiliser :
+aux techniques de programmation avancées, aux bonnes pratiques de codage afin de lire et d'écrire du code maintenable et compréhensible par d'autres, à la réutilisation de bibliothèques, et de mettre le tout en pratique.</objective>
+						<skill>Savoir travailler en équipe : reprendre un projet existant, laisser un projet pour une autre personne.</skill>
+						<skill>Écrire du code maintenable.</skill>
+						<skill>Utiliser et maîtriser les techniques avancées proposées.</skill>
+						<skill>Savoir quand chercher à réutiliser du code existant.</skill>
+						<skill>Savoir prendre en main rapidement des documentations complexes de bibliothèques.</skill>
+
+
+
+
+
+
+Un examen écrit vient compléter l'évaluation faite en TD.
+                                        	<plan>
+<part>La matière est présentée sous forme de TDs, et un cours de 2 heures (au début) sert de base à tous les travaux, et sur lequel les étudiants reviennent régulièrement. Le cours traite notamment de :
+							<part>Bonnes pratiques de codage. L'accent est mis sur la maintenabilité et le travail en équipe Détection d'erreurs, documentation, normes d'écriture, la bonne utilisation des « casts » (transtypages) et du « const », initialisation/destruction/copie, l'obsolescence de certaines écritures, le RAII, le coût CPU de certaines écritures, etc.</part>
+<part>Tour d'horizon de bibliothèques : l'idée est d'inciter le futur ingénieur à réutiliser et augmenter l'existant, plutôt que de réinventer. Il ne s'agit pas de faire un inventaire exhaustif, mais bien de montrer la démarche de choix de bibliothèques et d'en voir quelques unes. Le thème est ouvert ensuite sur quelques licences logicielles courantes (distinctions copyright / copyleft, GPL, LGPL, etc.)</part>
+<part>Techniques avancées. Outre une très brève révision des structures et algorithmes courants, cette partie aborde des points qui seront des briques nécessaires aux TDs. Diverses méthodes de callbacks, un bref aperçu des templates et de la métaprogrammation, design pattern « visitor », smart pointers, etc.
+</part></part>
+<part>Les TDs reprennent ainsi ces concepts, avec en plus :
+<part>La reprise de projet : les étudiants partent d'un projet existant, comme dans la plupart des projets d'entreprise. Ici, environ 200 à 300 ko de C++, plus toutes les bibliothèques incluses.</part>
+<part>Des thèmes supplémentaires : portage (code « cross-platform » et méta-makefile), compilation (liens synamiques, plugins...), multi-threading, optimisation, algorithmie, graphe de scène et rendu 3D.</part></part>
+
+						</plan>
+					</content> 
+					<bibliography>
+						<entry>Supports de cours, supports de TD et code source de départ.</entry>
+						<entry>« Effective C++ » &amp; « More effective C++ » de Scott Meyers</entry>
+						<entry>Articles divers de Bjarne Stroustrup</entry>
+						<entry>Design patterns – GOF</entry>								
+					</bibliography>
+
+				</course-part>
+				<course-part name="Spécialité audiovisuel 1" coefficient="2" acronym="" APO="">
+				<!--Spécialité audiovisuel 1 = Scénographie numérique-->
+					<volume course="0" td="20" tp="0" project="0" exam="0" homework="0" />
+
+					<prerequisites>
+						<prerequisite>Maitrise des outils de création et d'édition vidéo</prerequisite>
+						<prerequisite>Bonne connaissance de l'informatique graphique, et bonne base d'algorithmie</prerequisite>
+						<prerequisite>Base en électronique (niveau lycée)</prerequisite>
+					</prerequisites>
+
+					<evaluation cc="true" exam="false" project="true" tp="true" speech="true" report="false" />
+					
+					<who>
+						<accountant name="Thomas Pachoud" email="thomas.pachoud@gmail.com" />
+						<teacher name="Thomas Pachoud" role="cours" email="thomas.pachoud@gmail.com" civilite="Mr" />
+					</who>
+
+					<content>
+						<objective>Découvrir les outils du numérique à fin de les adapter à la mise en place de dispositif de scénographie interactive.</objective>
+						<objective>Découverte du plateau de théâtre,  de l'espace.</objective>
+						<objective>Découverte des outils de lumières, de vidéo, de régie, d'électronique et robotique adaptés à la mise en scène et en espace.</objective>
+						<objective>Création d'une petite forme artistique en groupe.</objective>
+						
+						<skill>Bonne compréhension de l'espace et des moyens à employer pour sa mise en valeur</skill>
+						<skill>Maitrise des outils de vidéo-mapping et de vidéo pour le spectacle ou l'installation</skill>
+						<skill>Maitrise des outils de régies et de synchronisation vidéo / son et lumière</skill>
+						<skill>Utilisation d'outils électroniques pour interagir avec le tout</skill>
+						
+						<plan>
+							<part>La formation s'organise sur une semaine avec les étudiants de 3e années option Audiovisuelle dans un espace dédié (le plateau de la ferme du buisson).</part>
+							<part>Le premier jour est organisé sous la forme d'un cours magistral de découverte de l'espace, mais aussi des différents outils qui permettent de le contrôler et le mettre en valeur.</part>
+							<part>La suite de la semaine s'organise autour de différents TPs et exercices papier menant les étudiants vers la création d'une mini forme artistique de quelques minutes autour d'une musique imposé.</part>
+	
+						</plan>
+					</content>
+					
+				</course-part>
+
+<course-part name="Spécialité audiovisuel 2" coefficient="2" acronym="" APO="">
+				<!--Spécialité audiovisuel 2 = Direction artistique-->
+					<volume course="20" td="0" tp="0" project="0" exam="0" homework="0" />
+
+					<prerequisites>
+						<prerequisite>Connaissances théorique et pratique dans les arts appliqués</prerequisite>
+						<prerequisite>bonne pratique de la suite adobe</prerequisite>
+					</prerequisites>
+
+					<evaluation cc="true" exam="false" project="true" tp="true" speech="false" report="false" />
+					
+					<who>
+						<accountant name="Gaëtan Robillard" email="gaetan.robillard@gmail.com" />
+						<teacher name="Gaëtan Robillard" role="cours" email="gaetan.robillard@gmail.com" civilite="Mr" />
+					</who>
+
+					<content>
+						<objective>A travers un exposé théorique des grandes méthodes de la création en publicité et dans la communication visuelle, et par la ponctuation d’exercices courts, il s’agit d’amener l’étudiant à concevoir et à articuler la mise en forme de contenus divers (texte, image, animation, vidéo...) tout en tenant une ligne de conduite artistique cohérente et explicite. La culture visuelle (contemporaine) est instruite en filigrane par des apports iconographique. Il s’agit là de solliciter l’étudiant à se constituer un fond propre.</objective>
+						
+						<skill>Pratique des outils utiles à la recherche d’inspiration (Planche tendance)</skill>
+						<skill>Mettre en forme un contenu selon un concept artistique</skill>
+						<skill>Défendre et appliquer un concept artistique sur différents supports</skill>
+						
+						<plan>
+							<part>Le cours de direction artistique a été élaboré à partir de deux axes. </part>
+							<part>Le premier, une approche théorique (histoire de la publicité, esthétique contemporaine, mode et cinéma), ponctuée d’un exposé des méthodes créatives telles que cahier de recherche, mood board, scénarii, phasage d’un projet de design graphique (et motion design). Des exercices courts ont permis aux étudiants d’intégrer quelque unes de ces méthodes.</part>
+							<part>Le second axe se base sur un exercice long d’environ 3 séances. Il est demandé aux étudiants de choisir entre un projet de design graphique type infographique (http://visual.ly/) et un projet en motion design. Le sujet, libre, doit être choisit dans le but de mettre en forme de l’information. On demande aux étudiants de suivre, selon le projet, les méthodes qui ont été abordées dans le premier axe du cours.</part>
+	
+						</plan>
+					</content>
+					<bibliography>
+					<entry>http://www.lemonde.fr/style/article/2012/09/07/profession-directeur-artistique_1756258_1575563.html</entry>
+					<entry>Quelques scènes extraites de la série TV Mad Men</entry>
+					</bibliography>
+				</course-part>
+
+			</ue>
+
+			<ue name="Arts et sciences" ects="6" acronym="" APO="">
+				<course-part name="Traitement d'image" coefficient="2" acronym="" APO="">
+					<volume course="20" td="20" tp="0" project="0" exam="0" homework="0" />		
+
+					<evaluation cc="false" exam="false" project="true" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="Jean-Christophe Pesquet" email="" />
+						<teacher name="" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Cet enseignement fournit une introduction aux méthodes modernes de traitement des images numériques. </objective>
+						<skill></skill>
+						<skill></skill>
+                                        	<plan>
+
+							<part>Généralités et repères historiques</part>
+							<part>Notions sur le système psychovisuel, représentation des couleurs</part>
+							<part>Représentations des champs bidimensionnels continus et discrets - numérisation des images</part>
+							<part>Transformation 2D par blocs, compression JPEG</part>
+							<part>Filtrage et extraction de contours</part>
+							<part>Amélioration d'images (filtrage non linéaire et méthodes de restauration)</part>
+							<part>Segmentation</part>
+							<part>Pour chacun des problèmes abordés pendant le cours de Traitement d'images, une méthode fait l'objet d'une mise en œuvre pendant une ou deux séances de 2 heures. Ces techniques sont programmées à l'aide du logiciel Scilab.</part>
+						</plan>
+					</content> 
+					
+
+
+				</course-part>
+<course-part name="Arts et lettre 2" coefficient="2" acronym="" APO="">
+				<!--Arts et lettre 2 = Histoire Culturelle-->
+					<volume course="20" td="0" tp="0" project="0" exam="2" homework="0" />
+
+					<prerequisites>
+						<prerequisite>Aucun mais dans la continuité de certains enseignements dont Culture artistique (IMAC 2, Histoire et Sociologie des médias)</prerequisite>
+					</prerequisites>
+
+					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="Frédéric Rolland" email="f.rolland@numericable.fr" />
+						<teacher name="Frédéric Rolland" role="cours" email="f.rolland@numericable.fr" civilite="Mr" />
+					</who>
+
+					<content>
+						<objective>Le besoin de références à des bases culturelles implique un enseignement transversal pour compléter les connaissances indispensables à une formation d’ingénieurs d’État, qui ont vocation à devenir des créateurs et de jeunes chefs de projets culturels.</objective>
+						<objective>Exposer ce public à certains questionnements et contenus en matière de culture générale mais aussi, plus opérationnellement, avec des arrières pensées du côté du « management interculturel » ou, par exemple, de la création d'univers persistants dans le jeu vidéo.</objective>
+						
+						<skill>Assimiler le plus de choses possibles qui aurait manqué à la culture générale des étudiants (comme, par exemple, à propos des langues, des religions, de l'armée ou l’existence de propositions théoriques comme la carte de la distance hiérarchique de Geert Hofstede, la polémique sur les propositions de cartes relatives aux ères culturelles mondiales (Inglehart et Welzel Vs Clash des civilisations de Huntington, etc.)</skill>
+						
+						<plan>
+							<part>Environ 450 slides, dont beaucoup de cartes et tableaux mais également des photos pour susciter la discussion parfois de façon ludique (mais aucun visionnage).</part>
+							<part>Après une assez longue introduction pour tenter d'expliquer ce qu'est la notion« d'histoire culturelle », traitement sous la forme d'un abécédaire dans l'ordre suivant : 1 « Civilisations » - 2 Signes, langues et symboles - 3 Religions – 4 Armées et conflits - 5 De l’identité culturelle aux clichés culturels - 6 Utopies et conclusion avec des exemples opérationnels d'univers fictifs forcement « référentiels » dans Star Wars - Games of Thrones</part>
+						</plan>
+					</content>
+					<bibliography>
+						<entry>Minimale (dictionnaire d'Histoire culturelle ou lectures des hors séries du journal Le Monde) mais avec des conseils de visionnages via Canal U ou l'émission Le dessous des cartes d'Arte.</entry>
+					</bibliography>
+				</course-part>
+				
+<course-part name="Découverte 1" coefficient="1" acronym="" APO="">
+				<!--Découverte 1 = Peinture et art-->
+					<volume course="20" td="0" tp="0" project="0" exam="2" homework="0" />
+
+					<prerequisites>
+						<prerequisite>Culture générale et/ou culture filmique générale. Culture picturale et /ou historique souhaitable.</prerequisite>
+					</prerequisites>
+
+					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="Agnès Ragnou" email="agnsrannou@yahoo.fr" />
+						<teacher name="Agnès Ragnou" role="cours" email="agnsrannou@yahoo.fr" civilite="Mr" />
+					</who>
+
+					<content>
+						<objective>Comment des peintres ont-ils influencé des cinéastes tant sur le plan cadrage (plan fixe par exemple) que sur la lumière et de certains cinéastes n'ayant pas hésité à reprendre un plan séquence à l'identique d'un tableau tels que Wim Wenders et David Lynch et le peintre Edward Hopper, Hitchcock et les peintres Odilon Redon, Léon Spillaert pour le film "Rebecca", Dali pour le film "Spellbound", Edward Hopper pour "Psychose" ou Georges Braque pour le film "Birds", etc.,  Stanley Kubrick et les peintres du XVIIIe siècle pour le film "Barry Lindon", etc... </objective>
+						
+						<skill>Culture filmique et picturale.</skill>
+						<skill>Analyse de films, de peintures et approche d’une nouvelle façon de regarder et d’envisager un film.</skill>
+						
+						<plan>
+							<part>Cours de découverte: "De l'influence des peintres sur les cinéastes"</part>
+							<part>Analyse de films et de peintures.</part>
+							<part>Ce cours se fait sous forme de Power Point (Peintures) et d'extrait de films.</part>
+	
+						</plan>
+					</content>
+					<bibliography>
+						<entry>Jacques, AUMONT, L’Oeil interminable, peinture et cinéma, Editions de la Différence, Paris, 2007</entry>
+						<entry>Pascal BONITZER, Décadrages, Editions de l’Etoile, paris, 1985</entry>
+						<entry>Standish D. LAWDER, Le Cinéma Cubiste, Editions Paris Expérimental, Paris, 1994</entry>
+						<entry>Pierre, FRESNAULT-DERUELLE, Des images lentement stabilisées, Quelques tableaux d’Edward Hopper, L’Harmattan, Paris, 1998</entry>
+						<entry>Marcel GROMMAIRE, Idées d’un peintre sur le cinéma, Nouvelles Editions Ségulier, Paris, 1995</entry>
+						<entry>Dominique, PAÏNI, Guy, COGEVAL, Hitchcock et l’Art, Coïncidences fatales, Mazzotta, Paris, 2000</entry>
+						<entry>Emmanuelle TOULET, Le Cinéma au rendez-vous des Arts, France Années 20 et 30, BNF, Paris, 1995</entry>
+						<entry>Luc, VANCHERI, Cinéma et peinture, Armand Colin CINEMA, Paris, 2007</entry>
+						<entry>Les Paysages du Cinéma, Sous la direction de Jean Mottet, Editions Champ Vallon, Seyssel, 1999 (1ère éd. P. Adams, « Landscape and the cinema », 1993)</entry>
+					</bibliography>
+				</course-part>
+				<course-part name="Découverte 2" coefficient="1" acronym="" APO="">
+				<!-- zététique -->
+					
+					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite>Aucun </prerequisite>
+					</prerequisites>
+
+					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="true" />
+					
+					<who>
+						<accountant name="Jean-Christophe Novelli" email="" />
+						<teacher name="Jean-Christophe Novelli" role="cours" email="" civilite="Mr" />
+
+						
+					</who>
+					<content>
+						<objective>Initier les étudiants à l'art du doute. Leur permettre de questionner leur environnement sous de nouveaux angles, leur permettre de développer leurs capacités d'analyse et de décodage de l'information et des méthodes de manipulations.</objective>
+						<skill>Être capable de localiser des fautes de raisonnement ou des approximations déguisées</skill>
+						<skill>Détecter des techniques de manipulation, à l'écrit ou à l'oral</skill>
+						<skill>Pouvoir imaginer des protocoles pour tester honnêtement les prétentions d'une personne à réaliser une action extraordinaire (déplacement d'objets à distance ou commniquer par la pensée, par exemple)</skill>
+                                        	<plan>
+							<part>Cours présentant d'abord les pièges statistiques les plus courants, ensuite les nombreuses techniques de la rhétorique avec des exemples pris dans des discours ou débats fameux, les escroqueries scientifiques, et enfin plusieurs cours sur les réponses proposées par la science pour différencier les preuves basées sur des faits de fausses preuves, notamment un long cours sur la méthodologie scientifique.</part>
+						</plan>
+					</content> 
+						
+				</course-part>
+				<course-part name="Découverte 3" coefficient="1" acronym="" APO="">
+				<!-- BD -->
+					<volume course="16" td="0" tp="0" project="0" exam="0" homework="0" />
+
+					<prerequisites>
+						<prerequisite>Aucun </prerequisite>
+					</prerequisites>
+
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="" email="" />
+						<teacher name="" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>L'objectif des cours de découverte est de sensibiliser les étudiants à des domaines connexes de leur futur domaine professionnel. Le cours de découverte de bande dessinée vise à initier les étudiants à cette nouvelle forme d'art à la fois en terme théorique &amp; esthétique ainsi que pratique.</objective>
+						<skill>Partager un socle de connaissance commun autour de la bande dessinée</skill>
+						<skill>Expérimenter la créativité par la bande dessinée</skill>
+                                        	<plan>
+							<part>Le cours de découverte se déploie sur la forme de cours « magistraux » mais qui peuvent être également l'occasion d'atelier.</part>
+						</plan>
+					</content> 
+					<bibliography>		
+					</bibliography>
+
+				</course-part>
+				<course-part name="Découverte 4" coefficient="1" acronym="" APO="">
+				<!-- jeux -->
+					<volume course="16" td="0" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite> Aucun</prerequisite>
+					</prerequisites>
+
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="" email="" />
+						<teacher name="" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>L'objectif des cours de découverte est de sensibiliser les étudiants à des domaines connexes de leur futur domaine professionnel. Le cours de découverte de jeux de stratégie vise à employer des ressorts ludiques à l’acquisition de connaissances dans le domaine ludique et de compétences transverses (stratégie / sens des relations humaines / management / game design)</objective>
+ 
+						<skill>Connaissance : L’univers du jeu, la commercialisation d’un jeu (pas forcément vidéo); Rencontre éditeur de jeu; Epater un vendeur de jeu / Etre à l’aise dans une soirée de gamer</skill>
+						<skill>Connaissance : Le “processus” de la création d’un jeu; Rencontre d’un auteur de jeu</skill>
+						<skill>Connaissance : L’équilibre d’un jeu de stratégie, les différentes formes de jeu; Critiquer un jeu existant</skill>   
+						<skill>Compétence : Une certaine capacité d’abstraction et de stratégie;Battre “systématiquement” (etre le champion d’un jeu) les gens à un jeu;  N coups d’avance</skill>
+						<skill>Compétence : Gamifier / ludifier une activité; Mettre des points un peu partout pour rendre les gens fous de vous; Rendre amusant un site / un contenu</skill>
+						<skill>Compétence : Détecter le comportement et le positionnement d’un individu : par le jeu et à terme au delà du jeu; “Je te suggère une nouvelle stratégie : laisse gagner le wookie”</skill>
+						<skill>Compétence : Game design. Créer un système de jeu; Créer un jeu</skill>
+						<skill></skill>
+                                        	<plan>
+							<part>Les aspects abordés couvrent, suivant l’intérêt porté par chacun : l’univers du jeu de société (éditeurs, auteurs, joueurs), la commercialisation &amp; le “processus” de la création d’un jeu, la stratégie, les relations humaines dans le jeu ainsi que le game design.</part>
+						</plan>
+					</content> 
+					<bibliography>
+								
+					</bibliography>
+
+				</course-part>
+			</ue>
+
+			<ue name="Culture et entreprise 5" ects="5" acronym="" APO="">
+				<course-part name="Langue étrangère" coefficient="2" acronym="" APO="">
+
+
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="true" report="false" />
+					
+					<who>
+						<accountant name="" email="" />
+						<teacher name="" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Les étudiants ont la possibilité de s'ouvrir à une nouvelle langue étrangère ou de consolider leur anglais.</objective>
+						<skill>Notions d'une nouvelle langue étrangère</skill>
+						<skill>Meilleure compréhension et pratique de l'anglais parlé ou écrit</skill>
+                                        	<plan>
+							<part>ANGLAIS: 
+								<part>en s’appuyant sur des documents oraux et écrits authentiques – podcasts d’émissions de radio, articles
+tirés de la presse récente – ce cours permet d’améliorer la compréhension et la pratique de la langue écrite
+comme de la langue parlée, en mettant notamment l’accent sur la communication.</part> 
+<part>D’autre part, les
+étudiants bénéficient d’un accès à une plate-forme d’enseignement des langues à distance qui est intégrée
+au cours et dont l’utilisation fait l’objet d’une évaluation.</part> 
+<part>Enfin, le troisième volet de ce cours vise à
+familiariser les étudiants avec la civilisation des pays anglophones, en mettant particulièrement l’accent sur
+les nouvelles technologies et leurs usages.</part>
+			</part>
+			<part>AUTRE LANGUE: cours au choix.</part>
+						</plan>
+					</content> 
+					<bibliography>
+						
+					</bibliography>
+
+
+
+				</course-part>
+				
+				<course-part name="Communication 5" coefficient="1" acronym="" APO="">
+					<volume course="0" td="35" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite>Avoir suivi les cours de communication de 1ere et de 2e années</prerequisite>
+					</prerequisites>
+
+					<evaluation cc="true" exam="false" project="false" tp="false" speech="true" report="true" />
+					
+					<who>
+						<accountant name="Bernadette Guillemot" email="" />
+						<teacher name="CAROUANA Laurent" role="td" email="" civilite="Mr" />
+						<teacher name="DA COSTA Juliette" role="td" email="" civilite="Ma" />
+						<teacher name="DUTRONC Pascale" role="td" email="" civilite="Ma" />
+						<teacher name="GELLERT Ghislaine" role="td" email="" civilite="Ma" />
+						<teacher name="GUILLEMOT Bernadette" role="td" email="" civilite="Ma" />
+						<teacher name="LAMBERT Betty" role="td" email="" civilite="Ma" />
+						<teacher name="LAMBILLON claire" role="td" email="" civilite="Ma" />
+						<teacher name="LLORENS florence" role="td" email="" civilite="Ma" />
+						<teacher name="MOULU Régis" role="td" email="" civilite="Mr" />
+						<teacher name="MYON Hubert" role="td" email="" civilite="Mr" />
+						<teacher name="ORDONNEZ Eva" role="td" email="" civilite="Ma" />
+						<teacher name="PACCOUD Béatrice" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Se positionner comme ingénieur-manager. Construire son projet d’ingénieur. Savoir appréhender et traiter des problèmes nouveaux.</objective>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<skill>adopter une vision stratégique de manager</skill>
+						<skill>mesurer les enjeux des missions pour représenter au mieux le groupe et l’entreprise</skill>
+						<skill>animer et motiver son équipe</skill>
+						<skill>savoir négocier</skill>
+						<skill>savoir élaborer un bilan personnel</skill>
+						<skill>se préparer aux entretiens d’embauche</skill>
+						<skill>savoir présenter ses compétences et son parcours personnel</skill>
+						
+                                        	<plan>
+
+
+
+
+
+
+
+
+
+
+
+
+
+							<part>management d’équipe (styles &amp; fondamentaux – management situationnel)</part>
+							<part>motivation d’équipe et délégation</part>
+							<part>négociation</part>
+							<part>évaluation des projets et des compétences</part>
+							<part>techniques de recherche d’emploi (bilan personnel et professionnel – rédaction de CV et lettres de motivation)</part>
+<part>rédaction du rapport de stage et préparation à sa soutenance.</part>
+							
+						</plan>
+					</content> 
+					<bibliography>
+
+
+						<entry>Management des organisations, André CAVAGNOL Pascal ROULLE, Collection business Gualino lextenso  éditions, 2009</entry>				
+						<entry>Vers une écologie de l'esprit T1, Gregory BATESON, Points Essais, 1977</entry>	
+						<entry>Manager dans la complexité, Dominique GENELOT 3ème édition, INSEP CONSULTING Editions, 2001</entry>	
+						<entry>La 3ème dimension du management, Robert BLAKE et Jane S.MOUTON, Les éditions d'organisation, 1987</entry>	
+						<entry>Communication des entreprises et des organisations - Psychologie, B.DOBIECKI – Enseignement supérieur tertiaire, ELLIPSES, 1996</entry>	
+						<entry>Manager une équipe projet, Henri-Pierre MADERS, Editions d'organisation, 2003</entry>	
+						<entry>Le manager au quotidien, Les 10 rôles du cadre, Henry MINTZBERG, Editions d’organisation, 2006</entry>	
+						<entry>Le management, voyage au centre des organisations, Henry MINTZBERG, Editions d’organisation, 1989</entry>	
+						<entry>Structure dynamique des organisations, Henry MINTZBERG, Editions d’organisation, 1992</entry>	
+						<entry>Interventions systémiques dans les organisations, Jean NIZET et Chantal HUYBRECHTS, De BOECK, 2004,</entry>	
+						<entry>Théorie générale des systèmes, Ludwig Von BERTALANFFY, DUNOD, 1993</entry>	
+						<entry>Les meilleures pratiques du management, Jean BRILMAN, Editions d'organisation, 2001</entry>	
+						<entry>Le vademecum du manager, MMD, 2001</entry>	
+						<entry> 80 hommes pour changer le monde, Sylvain DARNIL Mathieu LE ROUX, Poche, 2005</entry>	
+						<entry>Changements, Paul WATZLAWIK, John WEAKLAND, Richard FISH, Points Essais</entry>	
+						<entry>Projet personnel et professionnel, Vincent CHABAULT, Les carrés IUT, Galino Lextenso éditions</entry>	
+						<entry>Sociologie des organisations, Philippe BERNOUX, Points Essais, 2004</entry>	
+						<entry>Le management, Raymond-Alain THIETART, 11ème édition Que sais-je ?, PUF, 2008</entry>	
+						<entry>Gérer le changement 101 trucs et conseils, Robert HELLER, Mango pratique, 1999</entry>	
+						<entry>Le langage du changement, P.WATZLAWICK, 2004 41/103</entry>	
+						<entry>Les gourous du management, Tony GRUNDY, Editions d’organisation, 2006</entry>	
+						<entry>Le principe de PETER, L.J. PETER et R.HULL, Poche, 1970</entry>	
+						<entry>La socio-dynamique : un art de gouverner, Jean-Christian FAUVET Xavier STEFANI, Editions d'organisation, 1983</entry>	
+						<entry>Comportements organisationnels, Stephen ROBBINS, Timothy JUDGE, PEARSON Education, 2011</entry>	
+					
+
+					</bibliography>
+
+
+
+				</course-part>		
+
+
+				<course-part name="Management 2" coefficient="1,5" acronym="" APO="">
+				<!-- gestion RH -->
+					<volume course="16" td="0" tp="0" project="0" exam="0" homework="0" />
+					<prerequisites>
+						<prerequisite> </prerequisite>
+					</prerequisites>
+
+					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false" />
+					
+					<who>
+						<accountant name="" email="" />
+						<teacher name="" role="cours" email="" civilite="Mr" />
+						<teacher name="" role="td" email="" civilite="Ma" />
+						
+					</who>
+					<content>
+						<objective>Le cours de gestion des « Ressources humaines en conduite de projet innovant » vise à appréhender les différentes démarches pour recruter, mener, motiver des équipes pluri-disciplinaires et des différents métiers du chef de projet.</objective>
+
+						<skill>Gérer les conflits</skill>
+						<skill>Conduite de projet en lien avec les RH</skill>
+						<skill>Développer les techniques de créativités</skill>
+						<skill>Connaître son placement et son rôle dans une équipe, manager une équipe.</skill>
+                                        	<plan>
+<part>Le succès de l’innovation va aujourd’hui vers ceux qui dirigent leur entreprise plus seulement par les objectifs mais comme une succession de projets, et qui favorisent ainsi une productivité de création et non une productivité de gestion. Le projet est l’outil dont nous avons impérativement besoin pour conduire le changement et innover.
+Parce qu’il ne reproduit pas les modèles, mais crée des modèles nouveaux, le Projet est l’outil privilégié du passage à une nouvelle forme de progrès. C’est l’émergence d’une nouvelle culture. 
+Les managers le comprennent vite … ou prennent le risque de disparaître avec leurs entreprises … à peine créées et déjà dépassées.</part>
+
+<part>Le cours de gestion des « Ressources humaines en conduite de projet innovant » vise à appréhender les différentes démarches pour recruter, mener, motiver des équipes pluri-disciplinaires et des différents métiers du chef de projet. Il aborde successivement les thèmes suivants, en alternant cours théoriques, étude de cas et interactivité sous forme de quiz ou de tests : 
+
+<part> Introduction sur le projet innovant</part>
+<part> La conduite de projet (les méthodes, les étapes)</part>
+<part>  L’équipe projet, les rôles, le leadership</part>
+<part>  Les qualités requises du manager de projet (du simple manager au vrai leader)</part>
+<part> Les techniques de recrutement et les outils pour constituer et gérer une équipe pluridisciplinaire </part>
+<part> La gestion des conflits</part>
+<part>  Le déploiement des techniques de créativité (au sein d’un groupe ou d’une entité).</part></part>
+							
+						</plan>
+					</content> 
+
+
+
+				</course-part>
+				<course-part name="Développement durable" coefficient="0,5" acronym="" APO="">
+					<volume course="4" td="4" tp="0" project="0" exam="0" homework="0" />
+<prerequisites >
+<prerequisite >Pas de pré-requis</prerequisite> 
+</prerequisites>
+      
+      <evaluation exam="true" cc="false" project="false" tp="false" speech="false" report="false"/>
+      <who>
+<accountant  name="" email="" civilite="Ma"/>
+        <teacher role="cours" name="" civilite="Ma"/>
+      </who>
+      <content>
+<objective>
+                    Une étude de sociologie rapporte que 95% des
+              étudiants qui avaient un véritable projet de
+              vie (au début de leur formation) l’ont
+              réalisé, 30% l’ont « dépassé » : les
+              aspirations personnelles sont donc de
+              puissants moteurs de développement. De la
+              même manière, la gestion de son temps doit
+              tenir compte des goûts et des sources de
+              stress spécifiques à notre personnalité pour
+              mettre en place une discipline ciblée et
+              réaliste.
+        </objective>
+
+        <skill >
+          Eviter les écueils d’une gestion du temps dogmatique
+          et inopérante
+        </skill>
+        <skill >Initier sa gestion du temps</skill>
+
+        <plan>
+
+
+         
+
+            <part>
+             Gérer ses temps personnels et
+              professionnels
+              <part>
+                poser son équilibre personnel
+              </part>
+              <part> se donner des objectifs</part>
+              <part>
+                 les lois du temps pour gagner du
+                temps
+              </part>
+            </part>
+         <part>
+         
+            METHODE PEDAGOGIQUE
+            <part>
+              Chaque thème est introduit par un exposé
+              complété par un travail en groupe.
+            </part>
+          </part>
+          
+<!-- travail personnel : aucun -->
+        </plan>
+      </content>
+      
+   
+      <bibliography>
+        <entry>
+          Kenneth Blanchard : « le manager minute » ; Editions
+          d’organisation
+        </entry>
+
+      </bibliography>
+
+				</course-part>
+				
+			</ue>
+
+
+		</semester>
+/home/constant/IMAC/Maquettes/cdm/trunk/ooo3/PUBLISHED/IMAC3.odt
+
+			
+
+			
+
+		<semester  number="2" APO="">
+			<ue name="Stage" ects="30t " acronym="" APO=""/>
+		</semester>
+
+
+
+	</year>
+</track>
