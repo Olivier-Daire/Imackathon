@@ -6,8 +6,8 @@
 		<form method="post" action="../helpers/formHandler.php">
 			<input type="text" name="formType" value="connexion" hidden/>
 
-					<p><label for="pseudo">Pseudo</label></p>
-			   		<p><input type="text" class="u-full-width" name="pseudo" id="pseudo" required /></p>
+					<p><label for="login">Pseudo</label></p>
+			   		<p><input type="text" class="u-full-width" name="login" id="login" required /></p>
 
 
 				   	<p><label for="password">Mot de passe</label></p>

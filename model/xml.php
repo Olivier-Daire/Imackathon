@@ -12,7 +12,7 @@
 		 * @param  [date] 		$date
 		 * @return [mixed]      Utilisateur (si trouvé)
 		 */
-		static function getXMLFiles(){
+		public static function getXMLFiles(){
 			$connexion = DBConnexion::connectToDB();
 	
 			$query = $connexion->prepare('SELECT * FROM xml');
@@ -28,7 +28,7 @@
 		 * 
 		 */
 
-		static function addXml($nameFile){
+		public static function addXml($nameFile){
 			$connexion = DBConnexion::connectToDB();
 
 			$query = $connexion->prepare('INSERT INTO xml (filename) VALUES (:filename)');
