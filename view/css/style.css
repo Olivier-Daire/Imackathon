@@ -1,4 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Oswald');
+@import url('http://fonts.googleapis.com/css?family=Josefin+Slab');
 
 html,
 body {
@@ -61,7 +62,26 @@ body {
 
 #container .year .semestre .content .column{
 	height: auto;
-  width: 49%;
-  margin: auto;
-  display: inline-block;
+	width: 49%;
+	margin: auto;
+	margin-bottom: 50px;
+	display: inline-block;
 }
+
+#container .year .semestre .content .column .block{
+	margin: auto;
+	display: block;
+}
+
+#container .year .semestre .content .column .block h3{
+	font-family: 'Josefin Slab';
+	position: relative;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
