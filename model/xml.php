@@ -42,7 +42,7 @@
 		public static function deleteXMLFile($id){
 			$connexion = DBConnexion::connectToDB();
 
-			$query = $connexion->prepare('SELECT * FROM xml WHERE id = :id';
+			$query = $connexion->prepare('SELECT * FROM xml WHERE id = :id');
 			$query->execute(array('id' => $id));
 
 
