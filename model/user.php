@@ -1,6 +1,6 @@
 <?php
 	
-	require_once __DIR__.'/../connexionDB.php';
+	require_once __DIR__.'/../DBconnexion.php';
 
 	/**
 	* Gestion du modèle user

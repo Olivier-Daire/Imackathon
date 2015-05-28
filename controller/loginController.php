@@ -21,6 +21,7 @@
 
 			if ($input === -1 || $input2 === -1){
 				header("Location: ../view/connexion.php");
+				var_dump("mauvaise connexion");
 				return;
 			}
 			else {
