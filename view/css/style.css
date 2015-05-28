@@ -1,0 +1,20 @@
+html,
+body {
+	margin: 0;
+	background-image: url("../images/mouchetes.png");
+	background-repeat: repeat;
+}
+
+#header {
+	width: 100%;
+	margin: 0 auto 0;
+}
+
+#fade {
+	
+}
+
+#header img {
+	margin: 100px auto 0;
+	display: block;
+}
