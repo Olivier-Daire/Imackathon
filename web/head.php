@@ -1,6 +1,5 @@
 <?php
 	session_start();
-	require_once __DIR__.'/../helpers/notificationsHandler.php';
 
 	if (!isset($_SESSION['userId']) && basename($_SERVER['PHP_SELF']) != "connexion.php") {
 		header("Location: ../view/connexion.php");
