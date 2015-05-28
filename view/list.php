@@ -15,7 +15,6 @@
 					foreach ($xmls as $xml) {
 						echo "<tr>
 								<td>".$xml['filename']."</td>
-								<td>".$xml['editor']."</td>
 								<td>".$xml['date']."</td>
 								<td><form method='POST' action='../helpers/formHandler.php'>
 										<input type='text' name='formType' value='edit' hidden/>
