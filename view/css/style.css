@@ -1,5 +1,9 @@
 @import url('http://fonts.googleapis.com/css?family=Oswald');
 
+body{
+	margin: 0;
+}
+
 #header{
 	height: 100%;
 	width: 100%;
@@ -18,4 +22,16 @@
 	height: auto;
 	font-family: 'Oswald', cursive;
 	text-align: center;
+}
+
+#container .year .semestre .content{
+	height: auto;
+	margin-top: 100px;
+}
+
+#container .year .semestre .content .column{
+	height: auto;
+  width: 49%;
+  margin: auto;
+  display: inline-block;
 }
