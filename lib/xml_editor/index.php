@@ -25,7 +25,6 @@ $target;
 <script type="text/javascript">
 $(document).ready(function(){
 <?php if ($target && $xml){ ?>
-
 	GLR.messenger.show({msg:"Loading XML..."});
 	console.time("loadingXML");
 	

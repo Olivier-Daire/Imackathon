@@ -27,9 +27,12 @@
 
 		public static function deleteXMLFile($idFile){
 
-			$xml = Xml::deleteXMLFile($id);
+			$xmlFile = Xml::getXMLFileById($idFile);
 
-			return $xml;
+			unlink("../xml/".$xmlFile['filename']);
+			Xml::deleteXMLFile($idFile);
+
+			header("Location: ../view/list.php");
 		}
 
 	}

@@ -23,6 +23,17 @@
 		 	return $result;
 		}
 
+		public static function getXMLFileById($id){
+			$connexion = DBConnexion::connectToDB();
+	
+			$query = $connexion->prepare('SELECT * FROM xml WHERE id = :id');
+			$query->execute(array('id' => $id));
+
+			$result = $query->fetch(PDO::FETCH_ASSOC);
+
+		 	return $result;
+		}
+
 
 		/**
 		 * f
@@ -42,12 +53,9 @@
 		public static function deleteXMLFile($id){
 			$connexion = DBConnexion::connectToDB();
 
-			$query = $connexion->prepare('SELECT * FROM xml WHERE id = :id');
-			$query->execute(array('id' => $id));
-
-
 			$query = $connexion->prepare('DELETE FROM xml WHERE id =  :id');
-			$query->execute(array('id' => $id));
+			$result = $query->execute(array('id' => $id));
+			
 
 		 	return $result;
 		}
