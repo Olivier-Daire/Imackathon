@@ -20,8 +20,8 @@
 			$input2 = InputData::checkForEmpty($password);
 
 			if ($input === -1 || $input2 === -1){
-				header("Location: ../view/connexion.php");
-				var_dump("mauvaise connexion");
+				//header("Location: ../view/connexion.php");
+				echo("mauvaise connexion");
 				return;
 			}
 			else {
@@ -29,15 +29,16 @@
 				$userManager = new User();
 				$user = $userManager->getUserByLogin($username);
 
-				$check = Password::check($password, $user['mdp']);
+				$check = Password::check($password, $user['password']);
 
 				if ($check) {
 					session_start();
 					$_SESSION['userId'] = $user['id'];
 					
-					header("Location: ../view/back.php");
+					//header("Location: ../view/back.php");
 				} else {
-					header("Location: ../view/connexion.php");
+					//header("Location: ../view/connexion.php");
+					echo("error");
 				}
 			}
 

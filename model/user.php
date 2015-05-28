@@ -16,7 +16,7 @@
 			$connexion = DBConnexion::connectToDB();
 	
 			$query = $connexion->prepare('SELECT * FROM user WHERE login = :username LIMIT 1');
-			$query->execute(array('username' => $username));
+			$query->execute(array('username' => $login));
 
 			$result = $query->fetch(PDO::FETCH_ASSOC);
 
