@@ -19,12 +19,6 @@
 			return $xml;
 		}
 
-		public static function editXML($filename){
-
-			// FIXME Redirect to XML editor
-			//header("Location: ../view/connexion.php");
-		}
-
 		public static function deleteXMLFile($idFile){
 
 			$xmlFile = Xml::getXMLFileById($idFile);
@@ -34,6 +28,5 @@
 
 			header("Location: ../view/list.php");
 		}
-
 	}
 ?>

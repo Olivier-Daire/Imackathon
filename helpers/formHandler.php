@@ -20,9 +20,7 @@
 			break;
 		case 'edit':
 			$filename = $_POST['filename'];
-
-			xmlController::editXML($filename);
-			
+			header("Location: ../lib/xml_editor/index.php");
 			break;
 		
 		case 'changePassword':
