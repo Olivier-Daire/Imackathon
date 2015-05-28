@@ -9,7 +9,6 @@ $target;
 	$target = "../../xml/IMAC1.xml";
 	$xml = simplexml_load_file($target); // returns false if xml is invalid
 	if ($xml) $xmlString = $xml->asXML();
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -28,8 +27,7 @@ $(document).ready(function(){
 	GLR.messenger.show({msg:"Loading XML..."});
 	console.time("loadingXML");
 	
-	xmlEditor.loadXmlFromFile("<?php echo $target ?>", "#xml", function(){
-//	xmlEditor.loadXmlFromString($("#xmlString").val(), "#xml", function(){																														 																													 
+	xmlEditor.loadXmlFromFile("<?php echo $target ?>", "#xml", function(){																													 																													 
 		console.timeEnd("loadingXML");
 		$("#xml").show();
 		$("#actionButtons").show();																																				

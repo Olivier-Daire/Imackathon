@@ -1,9 +1,0 @@
-# Junk that could exist anywhere:
-.DS_Store
-*.swp
-*.tmp
-
-node_modules/
-bower_components/
-app/
-.grunt

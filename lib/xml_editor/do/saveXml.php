@@ -3,7 +3,7 @@
  * Saves POST input as an XML file and returns a JSON response
  */
 $xmlString;
-
+// FIXME : Problème de permissions
 if (isset($_POST['xmlString'])){
 	$filename  = $_POST['xmlFilename'];
 	$xmlString = stripslashes($_POST['xmlString']);
