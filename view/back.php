@@ -11,8 +11,8 @@
 	<div id="back">
 		<nav>
 			<ul>
-				<li><a href="./changePwd.php">changer de mot de passe</a></li>
 				<li><a href="./list.php">Gérer les XML</a></li>
+				<li><a href="./changePwd.php">Changer de mot de passe</a></li>
 			</ul>
 		</nav>
 	</div>

@@ -22,8 +22,8 @@ $(document).ready(function () {
 		});
 	}
 	
-	getXMLByYear( "xml/IMAC1.xml", 1 );
-	getXMLByYear( "xml/IMAC2.xml", 2 );
-	getXMLByYear( "xml/IMAC3.xml", 3 );
+	getXMLByYear( "../xml/IMAC1.xml", 1 );
+	getXMLByYear( "../xml/IMAC2.xml", 2 );
+	getXMLByYear( "../xml/IMAC3.xml", 3 );
 	
 });
