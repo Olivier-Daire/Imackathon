@@ -160,6 +160,8 @@ a {
 
 #container .year .column .content .block ul{
 	list-style: none;
+	font-size: 1.2em;
+	line-height: 1.5em;
 }
 
 /*#container .year .column .content .block ul li::before{
