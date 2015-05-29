@@ -40,7 +40,7 @@ $(document).ready(function(){
 						if (!$("button#viewFile").length){
 							$("<button id='viewFile'>View Updated File</button>")
 								.appendTo("#actionButtons div")
-								.click(function(){ window.open(data.filename); });
+								.click(function(){ window.open("../../xml/"+data.filename); });
 						}
 					}
 				}, "json");
