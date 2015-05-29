@@ -111,18 +111,20 @@ body{
 	display: block;
 	background: red;
 	width: 60vh;
+	padding: 1em 1em 1em 0em;
 }
 
 #container .year .column .content h3{
 	margin: auto;
 	margin-left: -30px;
-	margin-top: -30px;
+	margin-top: -29px;
+	position: absolute;
 }
 
 
 #container .year .column .content .block{
 	margin: auto;
-	margin-left: -30px;
+	margin-left: -46px;
 	display: block;
 }
 
