@@ -19,6 +19,10 @@
 			return $xml;
 		}
 
+		public static function updateXML($filename){
+			Xml::updateXML($filename);
+		}
+
 		public static function deleteXMLFile($idFile){
 
 			$xmlFile = Xml::getXMLFileById($idFile);

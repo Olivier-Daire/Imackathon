@@ -19,7 +19,8 @@
 		
 			break;
 		case 'edit':
-			$filename = $_POST['filename'];
+			if(!isset($_SESSION)) session_start();
+			$_SESSION['filename'] = $_POST['filename'];
 			header("Location: ../lib/xml_editor/index.php");
 			break;
 		

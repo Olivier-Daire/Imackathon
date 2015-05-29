@@ -1,0 +1,214 @@
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+@import url('http://fonts.googleapis.com/css?family=Josefin+Slab');
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/mouchetes.png");
+	background-repeat: repeat;
+	position: relative;
+}
+
+#header {
+	width: 100%;
+	margin: 0 auto 0;
+	height: 100%;
+	height: 100vh;
+	display: block;
+}
+
+#header h2 {
+	margin-top: 50px;
+	font-family: 'Oswald', cursive;
+	text-align: center;
+}
+
+#header p {
+	margin-top: 30px;
+	font-family: 'Oswald', cursive;
+	text-align: center;
+}
+
+#header #fade {
+	margin: 15px auto 0;
+	height: 400px;
+	width: 80%;
+	/*background: rgb(244,197,110);
+	background: -moz-linear-gradient(-45deg,  rgba(244,197,110,1) 18%, rgba(188,242,106,1) 50%, rgba(53,122,191,1) 100%); 
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(18%,rgba(244,197,110,1)), color-stop(50%,rgba(188,242,106,1)), color-stop(100%,rgba(53,122,191,1)));
+	background: -webkit-linear-gradient(-45deg,  rgba(244,197,110,1) 18%,rgba(188,242,106,1) 50%,rgba(53,122,191,1) 100%); 
+	background: -o-linear-gradient(-45deg,  rgba(244,197,110,1) 18%,rgba(188,242,106,1) 50%,rgba(53,122,191,1) 100%);
+	background: -ms-linear-gradient(-45deg,  rgba(244,197,110,1) 18%,rgba(188,242,106,1) 50%,rgba(53,122,191,1) 100%);
+	background: linear-gradient(135deg,  rgba(244,197,110,1) 18%,rgba(188,242,106,1) 50%,rgba(53,122,191,1) 100%);*/
+}
+
+#header #fade #logo{
+	margin: auto;
+  	width: 350px;
+  	height: 350px;
+  	padding-top: 40px;
+	display: block;
+	background: url('../images/logostack.png') left center no-repeat;
+	animation: play 1.25s steps(30) forwards;
+	-webkit-animation: play 1.25s steps(30) forwards;
+}
+
+@keyframes play {
+   0% { background-position: 0; }
+   100% { background-position: -10500px; }
+}
+
+#container{
+	display: block;
+	width: 100%;
+}
+
+#container .year{
+	height: auto;
+	
+}
+
+#container .year .semestre h1{
+	height: auto;
+	font-family: 'Oswald', cursive;
+	text-align: center;
+	margin: 0;
+	font-size: 8vh;
+	margin-bottom: 10px;
+}
+
+#container .year .semestre h1::before{
+	width: 10px;
+	height: 10px;
+}
+
+#container .year .semestre .content{
+	height: auto;
+	margin-top: 100px;
+}
+
+#container .year .semestre .content .column{
+	height: auto;
+	width: 49%;
+	margin: auto;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+#container .year .semestre .content .column .block{
+	margin: auto;
+	display: block;
+}
+
+#container .year .semestre .content .column .block h3{
+	font-family: 'Josefin Slab';
+	position: relative;
+	text-transform: uppercase;
+}
+
+
+/**** BACK ****/
+#back nav{
+ 	width: 50%;
+ 	margin:0 auto;
+}
+#back nav ul{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+
+}
+#back nav ul li{
+	padding: 15px;
+	font-family: 'Oswald', cursive;
+	font-size: 1.3em;
+
+}
+#back nav ul li a{
+	text-decoration: none;
+	color: black;
+	transition: font-size 0.2s;
+	-webkit-transition: font-size 0.2s;
+	-webkit-transition-timing-function: linear; /* Safari and Chrome */
+    transition-timing-function: linear;
+}
+
+#back nav ul li a:hover{
+	font-size: 1.35em;
+
+}
+
+#list table{
+	width:80%;
+	margin:0 auto;
+	background: rgba(1,1,1,0.1);
+	border-radius: 10px;
+}
+#list table th{
+	font-family: 'Oswald', cursive;
+	padding: 5px 10px 15px 10px;
+	font-size: 1.3em;
+	width: 33%;
+}
+#list table td{
+	font-size: 1.1em;
+	padding: 10px;
+	width: 33%;
+	text-align: center;
+	font-family: 'Oswald', cursive;
+}
+
+#list button {
+  background-color: #F15D49;
+  width: 125px;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:none;
+  margin:5px;
+
+  	transition: background-color 0.2s;
+  	-webkit-transition: background-color 0.2s;;
+	-webkit-transition-timing-function: linear; /* Safari and Chrome */
+    transition-timing-function: linear;
+}
+
+#list button:hover {
+  text-decoration: none;
+  background-color: #D15D49;
+}
+
+/**** END BACK ****/
+
+
+/**** CONNEXION ****/
+#connection form input{
+	width: 200px;
+	height: 25px;
+	font-family: 'Oswald', cursive;
+	text-align: center;
+}	
+#connection button {
+  background-color: #F15D49;
+  width: 125px;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:none;
+  margin:5px;
+
+  	transition: background-color 0.2s;
+  	-webkit-transition: background-color 0.2s;;
+	-webkit-transition-timing-function: linear; /* Safari and Chrome */
+    transition-timing-function: linear;
+}
+
+#connection button:hover {
+  text-decoration: none;
+  background-color: #D15D49;
+}
+/**** END CONNEXION ****/

@@ -58,6 +58,13 @@
 
 		}
 
+		public static function updateXML($filename){
+			$connexion = DBConnexion::connectToDB();
+
+			$query = $connexion->prepare('UPDATE xml SET date=now() WHERE filename = :filename');
+			$query->execute(array('filename' => $filename));
+		}
+
 
 		public static function deleteXMLFile($id){
 			$connexion = DBConnexion::connectToDB();
