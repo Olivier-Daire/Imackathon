@@ -1,7 +1,8 @@
 <?php
 	// FIXME file path and name hardcoded
-	$xmlFilename = "IMAC1.xml";
-	$target = "../../xml/IMAC1.xml";
+	if(!isset($_SESSION)) session_start();
+	$xmlFilename = $_SESSION['filename'];
+	$target = "../../xml/".$xmlFilename;
 	$xml = simplexml_load_file($target); // returns false if xml is invalid
 	if ($xml) {
 		$xmlString = $xml->asXML();
@@ -11,7 +12,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>SubChild.com - Live XML Editor</title>
+<title></title>
 <script type="text/javascript" src="js/ext/jquery-2.1.4.min.js"></script>
 <script src="js/ext/jquery.browser.min.js"></script>
 <script type="text/javascript" src="js/ext/GLR/GLR.js"></script>
@@ -52,18 +53,12 @@ $(document).ready(function(){
 		GLR.messenger.showAndHide({msg:"Uploaded file is not valid XML and cannot be edited.", mode:"error", speed:3000});
 		<?php } ?>
 	<?php } ?>
-	//	$("#todos, #links").height($("#about").height()+"px");
 });
 </script>
 </head>
 
 <body>
-	<div id="header">
-		<a href="index.php" id="home"></a>
-	</div>
-  
-<?php /*   <div style="margin:50px auto; width:500px; text-align:center; font:helvetica neue, arial;">I'm working on this at the moment so it might be funky for a bit. And yes, I'll try not to make changes in "production" in the future.</div> */ ?>
-  
+ 
 	<div id="xml" style="display:none;"></div>
 	<div id="actionButtons" style="display:none;">
 		<div></div>
@@ -71,8 +66,6 @@ $(document).ready(function(){
 	</div>
 	<div id="nodePath"></div>
 
-	<?php /* if ($xmlString){ ?><textarea style="display:none;" id="xmlString"><?php=$xmlString?></textarea><?php } */ ?>
-	
 </body>
 </html>
 
