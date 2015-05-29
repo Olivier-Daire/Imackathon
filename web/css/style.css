@@ -140,7 +140,7 @@ body {
 
 }
 
-#list, #uploadForm  {
+#list table, #uploadForm  {
 	width:80%;
 	margin: 10px auto;
 	padding: 5px 0; 
