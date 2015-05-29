@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS `xml` (
 --
 
 INSERT INTO `xml` (`id`, `filename`, `date`, `editor`) VALUES
-(1, 'IMAC1.XML', '2015-05-28 13:49:51', 1),
+(1, 'IMAC1.xml', '2015-05-28 13:49:51', 1),
 (2, 'IMAC2.xml', '2015-05-28 13:49:51', 1);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
