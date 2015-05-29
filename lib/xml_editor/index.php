@@ -1,14 +1,11 @@
 <?php
-error_reporting(0);
-
-$xmlString;
-$xmlFilename;
-$target;
 	// FIXME file path and name hardcoded
 	$xmlFilename = "IMAC1.xml";
 	$target = "../../xml/IMAC1.xml";
 	$xml = simplexml_load_file($target); // returns false if xml is invalid
-	if ($xml) $xmlString = $xml->asXML();
+	if ($xml) {
+		$xmlString = $xml->asXML();
+	}
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,46 +13,46 @@ $target;
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>SubChild.com - Live XML Editor</title>
 <script type="text/javascript" src="js/ext/jquery-1.4.js"></script>
-<script type="text/javascript" src="js/ext/jquery-color.js"></script>
+<!-- <script type="text/javascript" src="js/ext/jquery-color.js"></script> -->
 <script type="text/javascript" src="js/ext/GLR/GLR.js"></script>
 <script type="text/javascript" src="js/ext/GLR/GLR.messenger.js"></script>
 <script type="text/javascript" src="js/loc/xmlEditor.js"></script>
 <link href="css/main.css" type="text/css" rel="stylesheet"/>
 <script type="text/javascript">
 $(document).ready(function(){
-<?php if ($target && $xml){ ?>
-	GLR.messenger.show({msg:"Loading XML..."});
-	console.time("loadingXML");
-	
-	xmlEditor.loadXmlFromFile("<?php echo $target ?>", "#xml", function(){																													 																													 
-		console.timeEnd("loadingXML");
-		$("#xml").show();
-		$("#actionButtons").show();																																				
-		xmlEditor.renderTree();
-		$("button#saveFile").show().click(function(){
-			GLR.messenger.show({msg:"Generating file...", mode:"loading"});
-			$.post("do/saveXml.php", {xmlString:xmlEditor.getXmlAsString(), xmlFilename:"<?php echo $xmlFilename ?>"}, function(data){
-				if (data.error){
-					GLR.messenger.show({msg:data.error,mode:"error"});
-				}
-				else {
-					GLR.messenger.inform({msg:"Done.", mode:"success"});
-					if (!$("button#viewFile").length){
-						$("<button id='viewFile'>View Updated File</button>")
-							.appendTo("#actionButtons div")
-							.click(function(){ window.open(data.filename); });
+	<?php if ($target && $xml){ ?>
+		GLR.messenger.show({msg:"Loading XML..."});
+		console.time("loadingXML");
+		
+		xmlEditor.loadXmlFromFile("<?php echo $target ?>", "#xml", function(){																													 																													 
+			console.timeEnd("loadingXML");
+			$("#xml").show();
+			$("#actionButtons").show();																																				
+			xmlEditor.renderTree();
+			$("button#saveFile").show().click(function(){
+				GLR.messenger.show({msg:"Generating file...", mode:"loading"});
+				$.post("do/saveXml.php", {xmlString:xmlEditor.getXmlAsString(), xmlFilename:"<?php echo $xmlFilename ?>"}, function(data){
+					if (data.error){
+						GLR.messenger.show({msg:data.error,mode:"error"});
 					}
-				}
-			}, "json");
+					else {
+						GLR.messenger.inform({msg:"Done.", mode:"success"});
+						if (!$("button#viewFile").length){
+							$("<button id='viewFile'>View Updated File</button>")
+								.appendTo("#actionButtons div")
+								.click(function(){ window.open(data.filename); });
+						}
+					}
+				}, "json");
+			});
 		});
-	});
-<?php } else { ?>
-	$("#xml").html("<span style='font:italic 11px georgia,serif; color:#f30;'>Please upload a valid XML file.</span>").show();
-	<?php if ($target && !$xml){ ?>
-	GLR.messenger.showAndHide({msg:"Uploaded file is not valid XML and cannot be edited.", mode:"error", speed:3000});
+	<?php } else { ?>
+		$("#xml").html("<span style='font:italic 11px georgia,serif; color:#f30;'>Please upload a valid XML file.</span>").show();
+		<?php if ($target && !$xml){ ?>
+		GLR.messenger.showAndHide({msg:"Uploaded file is not valid XML and cannot be edited.", mode:"error", speed:3000});
+		<?php } ?>
 	<?php } ?>
-<?php } ?>
-//	$("#todos, #links").height($("#about").height()+"px");
+	//	$("#todos, #links").height($("#about").height()+"px");
 });
 </script>
 </head>
