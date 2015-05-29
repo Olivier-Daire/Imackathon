@@ -21,25 +21,15 @@ $(document).ready(function () {
 			cache: false,
 			dataType: "xml",
 			success: function(xml) {
+				$("#year" + year ).append("<h1> Année " + year+ "</h1>");
 				$(xml).find('semester').each(function(){
 					var semesterNumber = $(this).attr("number");
 					
-					$("#year" + year ).append("<div class='semestre' id='semestre" + semesterNumber + "'><h1>Année " + year + ", Semestre" + semesterNumber + "</h1><div class='content'></div></div>");
+					$("#year" + year ).append("<div class='column' id='semestre" + semesterNumber + "'><div class='content'><h3>Semestre" + semesterNumber + "</h3><div class='block'><ul></ul></div></div></div>");
 					
-					var cptBackground = 1;
-					var ColorBackground;
+					$(this).find("course-part").each(function(){
 					
-					$(this).find("ue").each(function(){
-					
-						if(cptBackground == 1) ColorBackground = "#436D77";
-						if(cptBackground == 2) ColorBackground = "#F15D49";
-						if(cptBackground == 3){
-							ColorBackground = "#76AF50";
-							cptBackground=1;	
-						}
-					
-						$("#year" + year + " #semestre" + semesterNumber + " .content").append("<div class='column'><div class='block' style='width: 200px; height: 200px; background-color: "+ColorBackground+"'><h3>" + $(this).attr("name") + "</h3></div></div>");
-						cptBackground++;
+						$("#year" + year + " #semestre" + semesterNumber + " .content .block ul").append("<li>" + $(this).attr("name") + "</li>");
 					
 					});
 				

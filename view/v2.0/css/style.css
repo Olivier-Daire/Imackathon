@@ -90,7 +90,7 @@ body{
 
 }
 
-#container .year .semestre h1{
+#container .year h1{
 	height: auto;
 	font-family: 'Oswald', cursive;
 	text-align: center;
@@ -99,34 +99,44 @@ body{
 	margin-bottom: 10px;
 }
 
-#container .year .semestre h1::before{
-	width: 10px;
-	height: 10px;
-}
-
-#container .year .semestre .content{
-	height: auto;
-	margin-top: 100px;
-}
-
-#container .year .semestre .content .column{
+#container .year .column{
 	height: auto;
 	width: 49%;
 	margin: auto;
+	margin-top: 50px;
 	margin-bottom: 50px;
 	display: inline-block;
 }
 
-#container .year .semestre .content .column .block{
+#container .year .column .content{
 	margin: auto;
+	display: block;
+	background: red;
+	width: 60vh;
+}
+
+#container .year .column .content h3{
+	margin: auto;
+	margin-left: -30px;
+	margin-top: -30px;
+}
+
+
+#container .year .column .content .block{
+	margin: auto;
+	margin-left: -30px;
 	display: block;
 }
 
-#container .year .semestre .content .column .block h3{
-	font-family: 'Josefin Slab';
-	position: relative;
-	text-transform: uppercase;
+#container .year .column .content .block ul{
+	list-style: none;
 }
+
+#container .year .column .content .block ul li::before{
+	content: "«\00A0";
+  color: blue;
+}
+
 
 #wrapper-content {
   position: fixed;
