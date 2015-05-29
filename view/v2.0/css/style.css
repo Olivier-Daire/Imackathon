@@ -10,6 +10,14 @@ body {
 	position: relative;
 }
 
+html{
+	z-index: 0;
+}
+
+body{
+	z-index: 1;
+}
+
 #header {
 	width: 100%;
 	margin: 0 auto 0;
