@@ -49,33 +49,5 @@
 		
 		<script src="js/parallax.js"></script>
 		
-		<script type="text/javascript" language="javascript">
-        	$(document).ready(function() {
-				var lastScrollTop = 0;
-				var window_height = $(window).height();
-				var window_top = $(window).scrollTop();
-	
-
-				$( window ).scroll(function() {
-					var st = $(this).scrollTop();
-					console.log(st);
-					$('#wrapper-content').css('top', 0.01 * st);
-					window_top = $(window).scrollTop();
-					
-					// downscroll code
-					if (st > lastScrollTop){ 
-						console.log('LOL');
-					}
-					
-					// upscroll code
-					else{
-						console.log('UP');
-					}	
-					lastScrollTop = st;		
-				});
-
-			});
-		</script>
-		
 	</body>
 </html>
