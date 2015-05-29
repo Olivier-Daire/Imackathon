@@ -51,6 +51,7 @@ body {
 	display: block;
 	background: url('../images/logostack.png') left center no-repeat;
 	animation: play 1.25s steps(30) forwards;
+	-webkit-animation: play 1.25s steps(30) forwards;
 }
 
 @keyframes play {
