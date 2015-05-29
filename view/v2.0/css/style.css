@@ -1,5 +1,8 @@
 @import url('http://fonts.googleapis.com/css?family=Oswald');
 @import url('http://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+@import url('http://fonts.googleapis.com/css?family=Montserrat');
 
 html,
 body {
@@ -28,14 +31,18 @@ body{
 
 #header h2 {
 	margin-top: 50px;
-	font-family: 'Oswald', cursive;
+	font-family: 'Montserrat', cursive;
+	text-transform: uppercase;
 	text-align: center;
 }
 
 #header p {
 	margin-top: 30px;
-	font-family: 'Oswald', cursive;
+	font-family: 'Open sans', cursive;
 	text-align: center;
+	width: 60%;
+	margin: 0 auto 0;
+	line-height: 30px;
 }
 
 #header #fade {
