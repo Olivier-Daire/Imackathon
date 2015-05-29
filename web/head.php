@@ -2,7 +2,7 @@
 	session_start();
 
 	if (!isset($_SESSION['userLogin']) && basename($_SERVER['PHP_SELF']) != "connexion.php") {
-		header("Location: ../view/back/connexion.php");
+		header("Location: ../back/connexion.php");
 	}
 
 	echo '<!DOCTYPE html>
