@@ -50,7 +50,7 @@
 			session_start();
 			session_unset();
 			session_destroy();
-			header("Location: ../view/connexion.php");
+			header("Location: ../view/front/index.php");
 		}
 	}
 

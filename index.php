@@ -1,5 +1,5 @@
 <?php
-	header("Location: ./view/front/index.html");
+	header("Location: ./view/front/index.php");
 ?>
 
 <!DOCTYPE html>

@@ -353,6 +353,10 @@ a {
 	}
 }
 
+footer{
+	text-align: center;
+}
+
 @media only screen and (min-width : 800px) and (max-width : 1440px) {
 	.fifty p {
 		font-size: 14px;

@@ -115,7 +115,9 @@ body {
 	position: relative;
 	text-transform: uppercase;
 }
-
+footer p a{
+	text-align: center;
+}
 
 /**** BACK ****/
 #back nav{

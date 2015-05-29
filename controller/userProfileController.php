@@ -37,7 +37,7 @@
 				$result = $userManager->updateUserProfile($userLogin, $array);
 
 			}
-			header("Location: ../view/back.php");
+			header("Location: ../view/back/back.php");
 		}
 
 	}

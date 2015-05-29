@@ -69,7 +69,7 @@
 					$nom = __DIR__.'/../xml/'.$filename;
 					$resultat = move_uploaded_file($tmpname,$nom);
 					if (!$resultat) echo "<p>Echec du transfert</p>";
-					header("Location: ../view/list.php");
+					header("Location: ../view/back/list.php");
 				}
 				else{ echo "Veuillez choisir un fichier XML valide";}
 			}
