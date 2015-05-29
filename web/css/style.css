@@ -140,9 +140,11 @@ body {
 
 }
 
-#list table{
+#list, #uploadForm  {
 	width:80%;
-	margin:0 auto;
+	margin: 10px auto;
+	padding: 5px 0; 
+
 	background: rgba(1,1,1,0.1);
 	border-radius: 10px;
 }
@@ -160,7 +162,7 @@ body {
 	font-family: 'Oswald', cursive;
 }
 
-#list button {
+#list button, #uploadForm button {
   background-color: #F15D49;
   width: 125px;
   color: #ffffff;
@@ -180,6 +182,13 @@ body {
   text-decoration: none;
   background-color: #D15D49;
 }
+
+#list, #uploadForm {
+	font-size: 1.1em;
+	text-align: center;
+	font-family: 'Oswald', cursive;
+}
+
 
 /**** END BACK ****/
 

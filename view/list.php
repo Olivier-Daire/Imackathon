@@ -11,7 +11,20 @@
 				<div id="logo"></div>
 		</div>
 
+
+		<div id="uploadForm">
+			<form  method="post" action="../helpers/formHandler.php" enctype="multipart/form-data">
+			<input type="text" name="formType" value="upload" hidden/>
+			<input type="hidden" name="MAX_FILE_SIZE" value="1048576" /> 		
+			<input type='file' name='fichierXML' value='upload' />
+			<button type="submit" name="submit"  > Envoyer</button>
+			</form>
+		</div>
+
 		<div id="list">
+			
+			
+
 			<table>
 				<tr>
 					<th>Nom du fichier</th>
@@ -40,14 +53,11 @@
 					?>
 
 			</table>
+
+			
 		</div>
 		
-		<form method="post" action="../helpers/formHandler.php" enctype="multipart/form-data">
-		<input type="text" name="formType" value="upload" hidden/>
-		<input type="hidden" name="MAX_FILE_SIZE" value="1048576" /> 		
-		<input type='file' name='fichierXML' value='upload' />
-		<input type="submit" name="submit" value="Envoyer" />
-		</form>
+	
 	
 	
 	</body>
