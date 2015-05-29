@@ -150,6 +150,36 @@ body{
   color: blue;
 }*/
 
+.multimedia {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.multimedia .middle1 {
+	width: 40%;
+	float: left;
+}
+
+.multimedia .middle2 {
+	width: 60%;
+	float: left;
+}
+
+
+.middle1 iframe {
+	padding-top: 5%;
+	width: 80%;
+	height: 500px;
+	margin: 0 auto 0;
+	display: block;
+}
+
+.middle2 img {
+	width: 80%;
+	margin: 0 auto 0;
+	display: block;
+}
 
 #wrapper-content {
   position: fixed;
