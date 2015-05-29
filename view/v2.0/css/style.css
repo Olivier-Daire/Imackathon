@@ -104,7 +104,7 @@ body{
 	width: 100px;
 	margin: auto;
 	margin-bottom: 10px;
-	background: #B0D5E9;
+	background: #F15D49;
 }
 
 #container .year .column{
@@ -123,6 +123,18 @@ body{
 	width: 60vh;
 	padding: 1em 1em 1em 0em;
 	font-family: 'Roboto', sans-serif;
+}
+
+#container .year#year1 .column .content{
+	background-image: linear-gradient(-90deg, #A9F4F9, #A9E6F9);
+}
+
+#container .year#year2 .column .content{
+	background-image: linear-gradient(-90deg, #AEF9B5, #AEF9C1);
+}
+
+#container .year#year3 .column .content{
+	background-image: linear-gradient(-90deg, #F5F9AE, #E9F9AE);
 }
 
 #container .year .column .content h3{
