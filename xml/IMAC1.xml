@@ -1,29 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE track PUBLIC "-//University of Marne-la-Vallee//cahier des modules//EN" "https://ei2000.univ-mlv.fr/MLV/CM/cdm3.dtd" >
-<track xmlns="http://www.umlv.fr/2005/cdm" xmlns:xi="http://www.w3.org/2001/XInclude"
-	name="IMAC" RF="Matthieu Constant"
-	fullname="Image, Multimédia, Audiovisuel et Communication"
-	email="matthieu.constant@univ-paris-est.fr">
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE track PUBLIC "-//University of Marne-la-Vallee//cahier des modules//EN" "https://ei2000.univ-mlv.fr/MLV/CM/cdm3.dtd"><track xmlns="http://www.umlv.fr/2005/cdm" xmlns:xi="http://www.w3.org/2001/XInclude" name="IMAC" RF="Matthieu Constant" fullname="Image, Multimédia, Audiovisuel et Communication" email="matthieu.constant@univ-paris-est.fr">
 	<year number="1" RA="Matthieu Constant" email="??">
 
-		<semester  number="1" APO="">
+		<semester number="1" APO="">
 			<ue name="Science et informatique 1" ects="9" acronym="" APO="">
 						
 				<course-part name="Programmation et Algorithmique 1" coefficient="3" acronym="" APO="">
 					
-					<volume course="22" td="22" tp="0" project="0" exam="4" homework="0" />
+					<volume course="22" td="22" tp="0" project="0" exam="4" homework="0"/>
 
 					<prerequisites>
 						<prerequisite> Aucun prérequis.</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="true" project="true" tp="true" speech="false" report="false" />
+					<evaluation cc="true" exam="true" project="true" tp="true" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="Eric Laporte" email="eric.laporte@u-pem.fr" />
-						<teacher name="Eric Laporte" role="cours" email="eric.laporte@u-pem.fr" civilite="Mr" />
-						<teacher name="Matthieu Constant" role="td" email="Matthieu.Constant@u-pem.fr" civilite="Mr" />
-                                                <teacher name="Chaohui Wang" role="td" email="chaohui.wang@u-pem.fr" civilite="Mr" />
+						<accountant name="Eric Laporte" email="eric.laporte@u-pem.fr"/>
+						<teacher name="Eric Laporte" role="cours" email="eric.laporte@u-pem.fr" civilite="Mr"/>
+						<teacher name="Matthieu Constant" role="td" email="Matthieu.Constant@u-pem.fr" civilite="Mr"/>
+                                                <teacher name="Chaohui Wang" role="td" email="chaohui.wang@u-pem.fr" civilite="Mr"/>
 					</who>
 					<content>
 						<objective> Niveler les inégalités face à la programmation en C, mettre à niveau sur les commandes système de base. Faire le point sur la bonne programmation : résoudre des problèmes en C, écrire et compiler proprement un programme C simple. Donner les bases de l'algorithmique, des structures de données et de la gestion de la mémoire. </objective>
@@ -61,18 +56,18 @@
 				</course-part>
 
 				<course-part name="Mathématiques 1" coefficient="3" acronym="" APO="">
-					<volume course="24" td="24" tp="0" project="0" exam="2" homework="0" />
+					<volume course="24" td="24" tp="0" project="0" exam="2" homework="0"/>
 
 					<prerequisites>
 						<prerequisite> Aucun prérequis.</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="Jean-Christophe Novelli" email="novelli@univ-mlv.fr" />
-						<teacher name="Jean-Christophe Novelli" role="cours" email="novelli@univ-mlv.fr" civilite="Mr" />
-						<teacher name="Xavier Lhebrard" role="td" email="xavier.lhebrard@gmail.com" civilite="Mr" />
+						<accountant name="Jean-Christophe Novelli" email="novelli@univ-mlv.fr"/>
+						<teacher name="Jean-Christophe Novelli" role="cours" email="novelli@univ-mlv.fr" civilite="Mr"/>
+						<teacher name="Xavier Lhebrard" role="td" email="xavier.lhebrard@gmail.com" civilite="Mr"/>
 					</who>
 
 					<content>
@@ -97,17 +92,17 @@
 				</course-part>
 
 				<course-part name="Programmation Web 1" coefficient="3" acronym="" APO="">
-					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
+					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0"/>
 
 					<prerequisites>
 						<prerequisite> Aucun prérequis.</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="Manar Qamhieh" email="manar.qamhieh@gmail.com" />
-						<teacher name="Manar Qamhieh" role="td" email="manar.qamhieh@gmail.com" civilite="Ma" />
+						<accountant name="Manar Qamhieh" email="manar.qamhieh@gmail.com"/>
+						<teacher name="Manar Qamhieh" role="td" email="manar.qamhieh@gmail.com" civilite="Ma"/>
 					</who>
 
 					<content>
@@ -128,7 +123,7 @@
 						</plan>
 					</content>
 					<bibliography>
-						<entry>Tutoriels W3C.</entry> -->					
+						<entry>Tutoriels W3C.</entry> --&gt;					
 					</bibliography>
 				</course-part>
 			</ue>
@@ -136,17 +131,17 @@
 			<ue name="Audiovisuel et Multimedia 1" ects="6" acronym="" APO="">
 				<course-part name="Audiovisuel 1" coefficient="3" acronym="" APO="">
 				<!--Audiovisuel 1 = Pratique Vidéo-->
-					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
+					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0"/>
 
 					<prerequisites>
 						<prerequisite> Aucun prérequis.</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="false" project="true" tp="false" speech="true" report="true" />
+					<evaluation cc="true" exam="false" project="true" tp="false" speech="true" report="true"/>
 					
 					<who>
-						<accountant name="Thomas Faverjon" email="thomasfaverjon@yahoo.fr" />
-						<teacher name="Thomas Faverjon" role="cours" email="thomasfaverjon@yahoo.fr" civilite="Mr" />
+						<accountant name="Thomas Faverjon" email="thomasfaverjon@yahoo.fr"/>
+						<teacher name="Thomas Faverjon" role="cours" email="thomasfaverjon@yahoo.fr" civilite="Mr"/>
 					</who>
 
 					<content>
@@ -168,17 +163,17 @@
 				
 				<course-part name="Multimédia 1" coefficient="3" acronym="" APO="">
 				<!--Multimédia 1 = Effets spéciaux-->
-					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
+					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0"/>
 
 					<prerequisites>
 						<prerequisite> Aucun prérequis.</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="true" project="true" tp="false" speech="false" report="false" />
+					<evaluation cc="true" exam="true" project="true" tp="false" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="Patrick Louise-Alexandrine" email="ninoxcg@gmail.com" />
-						<teacher name="Patrick Louise-Alexandrine" role="cours" email="ninoxcg@gmail.com" civilite="Mr" />
+						<accountant name="Patrick Louise-Alexandrine" email="ninoxcg@gmail.com"/>
+						<teacher name="Patrick Louise-Alexandrine" role="cours" email="ninoxcg@gmail.com" civilite="Mr"/>
 					</who>
 
 					<content>
@@ -226,18 +221,18 @@
 			</ue>
 			<ue name="Arts et lettre 1" ects="9" acronym="" APO="">
 				<course-part name="Arts appliqués" coefficient="3" acronym="" APO="">
-					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
+					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0"/>
 
 					<prerequisites>
 						<prerequisite>Une expérience en projet de création visuelle ou en prépa art appliqué est un plus.</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="false" project="true" tp="true" speech="false" report="true" />
+					<evaluation cc="true" exam="false" project="true" tp="true" speech="false" report="true"/>
 					
 					<who>
-						<accountant name="Gaëtan Robillard" email="gaetan.robillard@gmail.com" />
-						<teacher name="Gaëtan Robillard" role="cours" email="gaetan.robillard@gmail.com" civilite="Mr" />
-						<teacher name="Miguel Almiron" role="cours" email="miguel.almiron@u-pem.fr" civilite="Mr" />
+						<accountant name="Gaëtan Robillard" email="gaetan.robillard@gmail.com"/>
+						<teacher name="Gaëtan Robillard" role="cours" email="gaetan.robillard@gmail.com" civilite="Mr"/>
+						<teacher name="Miguel Almiron" role="cours" email="miguel.almiron@u-pem.fr" civilite="Mr"/>
 					</who>
 
 					<content>
@@ -283,17 +278,17 @@
 				
 				<course-part name="Arts et lettres 1" coefficient="3" acronym="" APO="">
 				<!--Arts et lettres 1 = Histoire de l'art-->
-					<volume course="24" td="0" tp="0" project="0" exam="2" homework="0" />
+					<volume course="24" td="0" tp="0" project="0" exam="2" homework="0"/>
 
 					<prerequisites>
 						<prerequisite> Aucun pré-requis particulier n’est exigé. Une curiosité et un intérêt pour la création artistique sont préférables.</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false" />
+					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="Emilie Verger" email="emilie.verger@gmail.com" />
-						<teacher name="Emilie Verger" role="cours" email="emilie.verger@gmail.com" civilite="Mme" />
+						<accountant name="Emilie Verger" email="emilie.verger@gmail.com"/>
+						<teacher name="Emilie Verger" role="cours" email="emilie.verger@gmail.com" civilite="Mme"/>
 					</who>
 
 					<content>
@@ -321,17 +316,17 @@
 
 				<course-part name="Expression 1" coefficient="3" acronym="" APO="">
 				<!--Expression 1 = Expression et ecriture-->
-					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
+					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0"/>
 
 					<prerequisites>
 						<prerequisite> Aucun prérequis.</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="false" project="false" tp="false" speech="false" report="false" />
+					<evaluation cc="true" exam="false" project="false" tp="false" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="Pierre-Jerôme Adjedj" email="p.j.adjedj@me.com" />
-						<teacher name="Pierre-Jerôme Adjedj" role="cours" email="p.j.adjedj@me.com" civilite="Mr" />
+						<accountant name="Pierre-Jerôme Adjedj" email="p.j.adjedj@me.com"/>
+						<teacher name="Pierre-Jerôme Adjedj" role="cours" email="p.j.adjedj@me.com" civilite="Mr"/>
 					</who>
 
 					<content>
@@ -361,27 +356,27 @@
 			</ue>
 			<ue name="Culture et entreprise 1" ects="6" acronym="" APO="">
 				<course-part name="Communication 1" coefficient="3" acronym="" APO="">
-					<volume course="0" td="17.5" tp="0" project="0" exam="0" homework="0" />
+					<volume course="0" td="17.5" tp="0" project="0" exam="0" homework="0"/>
 					<prerequisites>
 						<prerequisite>Aucun</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="false" project="false" tp="false" speech="true" report="false" />
+					<evaluation cc="true" exam="false" project="false" tp="false" speech="true" report="false"/>
 					
 					<who>
-						<accountant name="Bernadette Guillemot" email="" />
-						<teacher name="CAROUANA Laurent" role="td" email="" civilite="Mr" />
-						<teacher name="DA COSTA Juliette" role="td" email="" civilite="Ma" />
-						<teacher name="DUTRONC Pascale" role="td" email="" civilite="Ma" />
-						<teacher name="GELLERT Ghislaine" role="td" email="" civilite="Ma" />
-						<teacher name="GUILLEMOT Bernadette" role="td" email="" civilite="Ma" />
-						<teacher name="LAMBERT Betty" role="td" email="" civilite="Ma" />
-						<teacher name="LAMBILLON claire" role="td" email="" civilite="Ma" />
-						<teacher name="LLORENS florence" role="td" email="" civilite="Ma" />
-						<teacher name="MOULU Régis" role="td" email="" civilite="Mr" />
-						<teacher name="MYON Hubert" role="td" email="" civilite="Mr" />
-						<teacher name="ORDONNEZ Eva" role="td" email="" civilite="Ma" />
-						<teacher name="PACCOUD Béatrice" role="td" email="" civilite="Ma" />
+						<accountant name="Bernadette Guillemot" email=""/>
+						<teacher name="CAROUANA Laurent" role="td" email="" civilite="Mr"/>
+						<teacher name="DA COSTA Juliette" role="td" email="" civilite="Ma"/>
+						<teacher name="DUTRONC Pascale" role="td" email="" civilite="Ma"/>
+						<teacher name="GELLERT Ghislaine" role="td" email="" civilite="Ma"/>
+						<teacher name="GUILLEMOT Bernadette" role="td" email="" civilite="Ma"/>
+						<teacher name="LAMBERT Betty" role="td" email="" civilite="Ma"/>
+						<teacher name="LAMBILLON claire" role="td" email="" civilite="Ma"/>
+						<teacher name="LLORENS florence" role="td" email="" civilite="Ma"/>
+						<teacher name="MOULU Régis" role="td" email="" civilite="Mr"/>
+						<teacher name="MYON Hubert" role="td" email="" civilite="Mr"/>
+						<teacher name="ORDONNEZ Eva" role="td" email="" civilite="Ma"/>
+						<teacher name="PACCOUD Béatrice" role="td" email="" civilite="Ma"/>
 						
 					</who>
 					<content>
@@ -447,17 +442,17 @@
 
 				</course-part>
 				<course-part name="Anglais 1" coefficient="3" acronym="" APO="">
-					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
+					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0"/>
 
 					<prerequisites>
 						<prerequisite> Le niveau B2 étant le niveau visé en fin de cycle secondaire, il s'agira de vérifier que les étudiants possèdent une langue autonome dans les 5 activités langagières essentielles (compréhensions écrite et oral, expressions écrite et orale et interaction).</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="true" project="true" tp="true" speech="true" report="false" />
+					<evaluation cc="true" exam="true" project="true" tp="true" speech="true" report="false"/>
 					
 					<who>
-						<accountant name="Benjamin Templier" email="Benjamin.Templier@u-pem.fr" />
-						<teacher name="Benjamin Templier" role="td" email="Benjamin.Templier@u-pem.fr" civilite="Mr" />
+						<accountant name="Benjamin Templier" email="Benjamin.Templier@u-pem.fr"/>
+						<teacher name="Benjamin Templier" role="td" email="Benjamin.Templier@u-pem.fr" civilite="Mr"/>
 						
 					</who>
 
@@ -494,17 +489,17 @@ Le cours sera fondé sur une approche pragmatique de 4 grands domaines de compé
 
 				<course-part name="Programmation et algorithmique 2" coefficient="3" acronym="" APO="">
 				<!-- Algorithmique avancée-->
-					<volume course="24" td="24" tp="0" project="0" exam="2" homework="0" />
+					<volume course="24" td="24" tp="0" project="0" exam="2" homework="0"/>
 					<prerequisites>
 						<prerequisite> Cours de Programmation et Algorithmique 1 du premier semestre.</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="true" project="true" tp="true" speech="false" report="false" />
+					<evaluation cc="true" exam="true" project="true" tp="true" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="Eric Laporte" email="" />
-						<teacher name="Eric Laporte" role="cours" email="" civilite="Mr" />
-						<teacher name="Michel Landshoot" role="td" email="" civilite="Ma" />
+						<accountant name="Eric Laporte" email=""/>
+						<teacher name="Eric Laporte" role="cours" email="" civilite="Mr"/>
+						<teacher name="Michel Landshoot" role="td" email="" civilite="Ma"/>
 						
 					</who>
 					<content>
@@ -537,17 +532,17 @@ Le cours sera fondé sur une approche pragmatique de 4 grands domaines de compé
 					</bibliography>
 				</course-part>
 				<course-part name="Synthèse d'image" coefficient="4" acronym="" APO="">
-					<volume course="24" td="24" tp="0" project="0" exam="2" homework="0" />
+					<volume course="24" td="24" tp="0" project="0" exam="2" homework="0"/>
 <prerequisites>
 						<prerequisite> Capacité de programmation de base (notamment en C) pour les TD. Connaissances en mathématiques de niveau lycée, terminale scientifique.</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="Venceslas Biri" email="" />
-						<teacher name="Venceslas Biri" role="cours" email="" civilite="Mr" />
-						<teacher name="Vincent Nozick" role="td" email="" civilite="Mr" />
+						<accountant name="Venceslas Biri" email=""/>
+						<teacher name="Venceslas Biri" role="cours" email="" civilite="Mr"/>
+						<teacher name="Vincent Nozick" role="td" email="" civilite="Mr"/>
 						
 					</who>
 					<content>
@@ -589,16 +584,16 @@ Le cours sera fondé sur une approche pragmatique de 4 grands domaines de compé
 				</course-part>
 				<course-part name="Programmation Web 2" coefficient="4" acronym="" APO="">
 				<!-- php et bases de données-->
-					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
+					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0"/>
 					<prerequisites>
 						<prerequisite> Avoir suivi le cours de programmation web 1</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="false" project="true" tp="false" speech="false" report="false" />
+					<evaluation cc="true" exam="false" project="true" tp="false" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="??" email="" />						
-						<teacher name="??" role="td" email="" civilite="Ma" />
+						<accountant name="??" email=""/>						
+						<teacher name="??" role="td" email="" civilite="Ma"/>
 						
 					</who>
 					<content>
@@ -626,17 +621,17 @@ enfin sanctionné par un projet de réalisation d'une application web.</part></p
 			<ue name="Sciences de l'ingénieur 1" ects="6" acronym="" APO="">
 				<course-part name="Mathématiques 2" coefficient="3" acronym="" APO="">
 				<!-- algèbre-->
-					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0" />
+					<volume course="24" td="24" tp="0" project="0" exam="0" homework="0"/>
 <prerequisites>
 						<prerequisite> Aucun</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false" />
+					<evaluation cc="true" exam="true" project="false" tp="false" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="Jean-Christophe Novelli" email="" />
-						<teacher name="Jean-Christophe Novelli" role="cours" email="" civilite="Mr" />
-						<teacher name="Marwa Meddeb" role="td" email="" civilite="Ma" />
+						<accountant name="Jean-Christophe Novelli" email=""/>
+						<teacher name="Jean-Christophe Novelli" role="cours" email="" civilite="Mr"/>
+						<teacher name="Marwa Meddeb" role="td" email="" civilite="Ma"/>
 						
 					</who>
 					<content>
@@ -654,15 +649,15 @@ enfin sanctionné par un projet de réalisation d'une application web.</part></p
 
 
 				<course-part name="Traitement du signal 1" coefficient="3" acronym="" APO="">
-					<volume course="2" td="24" tp="0" project="0" exam="0" homework="0" />
+					<volume course="2" td="24" tp="0" project="0" exam="0" homework="0"/>
 					<prerequisites>
 						<prerequisite>Aucun</prerequisite>
 					</prerequisites>
-					<evaluation cc="true" exam="true" project="true" tp="true" speech="true" report="false" />
+					<evaluation cc="true" exam="true" project="true" tp="true" speech="true" report="false"/>
 					
 					<who>
-						<accountant name="Jean-Christophe Pesquet" email="" />
-						<teacher name="Jean-Christophe Pesquet" role="cours" email="" civilite="Mr" />
+						<accountant name="Jean-Christophe Pesquet" email=""/>
+						<teacher name="Jean-Christophe Pesquet" role="cours" email="" civilite="Mr"/>
 					</who>
                                         <content>
 						<objective>Ce cours fournit les premières bases d'une formation en Traitement du Signal. L'accent est mis sur les
@@ -694,17 +689,17 @@ Cet enseignement est réalisé à l'aide du logiciel Scilab (clone gratuit du lo
 			<ue name="Audiovisuel et Multimédia 2" ects="7" acronym="" APO="">
 				<course-part name="Traitement du son" coefficient="3" acronym="" APO="">
 				<!--Traitement du son = Technique audio-->
-					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
+					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0"/>
 
 					<prerequisites>
 						<prerequisite>Nécessite une connaissance de l’outil informatique ainsi qu’un minimum d’esprit créatif ...</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="true" project="true" tp="true" speech="true" report="false" />
+					<evaluation cc="true" exam="true" project="true" tp="true" speech="true" report="false"/>
 					
 					<who>
-						<accountant name="Laurent Julia" email="laurentjulia@free.fr" />
-						<teacher name="Laurent Julia" role="cours" email="laurentjulia@free.fr" civilite="Mr" />
+						<accountant name="Laurent Julia" email="laurentjulia@free.fr"/>
+						<teacher name="Laurent Julia" role="cours" email="laurentjulia@free.fr" civilite="Mr"/>
 					</who>
 
 					<content>
@@ -731,17 +726,17 @@ Cet enseignement est réalisé à l'aide du logiciel Scilab (clone gratuit du lo
 				
 				<course-part name="Expression 2" coefficient="2" acronym="" APO="">
 				<!--Expression 2 = Histoire des technologies audiovisuelles-->
-					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0" />
+					<volume course="0" td="24" tp="0" project="0" exam="2" homework="0"/>
 
 					<prerequisites>
 						<prerequisite>Ouverture aux questions techniques et attention soutenue pour un cours très dense</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false" />
+					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="Frédéric Rolland" email="f.rolland@numericable.fr" />
-						<teacher name="Frédéric Rolland" role="cours" email="f.rolland@numericable.fr" civilite="Mr" />
+						<accountant name="Frédéric Rolland" email="f.rolland@numericable.fr"/>
+						<teacher name="Frédéric Rolland" role="cours" email="f.rolland@numericable.fr" civilite="Mr"/>
 					</who>
 
 					<content>
@@ -763,17 +758,17 @@ Cet enseignement est réalisé à l'aide du logiciel Scilab (clone gratuit du lo
 				
 				<course-part name="Multimédia 2" coefficient="2" acronym="" APO="">
 				<!--Multimédia 2 = Dramaturgie des jeux vidéo-->
-					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
+					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0"/>
 
 					<prerequisites>
 						<prerequisite> Aucun prérequis.</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="false" project="true" tp="false" speech="false" report="false" />
+					<evaluation cc="true" exam="false" project="true" tp="false" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="Pierre-Jerôme Adjedj" email="p.j.adjedj@me.com" />
-						<teacher name="Pierre-Jerôme Adjedj" role="cours" email="p.j.adjedj@me.com" civilite="Mr" />
+						<accountant name="Pierre-Jerôme Adjedj" email="p.j.adjedj@me.com"/>
+						<teacher name="Pierre-Jerôme Adjedj" role="cours" email="p.j.adjedj@me.com" civilite="Mr"/>
 					</who>
 
 					<content>
@@ -808,17 +803,17 @@ Cet enseignement est réalisé à l'aide du logiciel Scilab (clone gratuit du lo
 			</ue>
 			<ue name="Culture et entreprise 2" ects="8" acronym="" APO="">
 				<course-part name="Anglais 2" coefficient="3" acronym="" APO="">
-					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0" />
+					<volume course="0" td="24" tp="0" project="0" exam="0" homework="0"/>
 
 					<prerequisites>
 						<prerequisite> Le niveau B2 étant le niveau visé en fin de cycle secondaire, il s'agira de vérifier que les étudiants possèdent une langue autonome dans les 5 activités langagières essentielles (compréhensions écrite et oral, expressions écrite et orale et interaction).</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="true" project="true" tp="true" speech="true" report="false" />
+					<evaluation cc="true" exam="true" project="true" tp="true" speech="true" report="false"/>
 					
 					<who>
-						<accountant name="Benjamin Templier" email="Benjamin.Templier@u-pem.fr" />
-						<teacher name="Benjamin Templier" role="td" email="Benjamin.Templier@u-pem.fr" civilite="Mr" />
+						<accountant name="Benjamin Templier" email="Benjamin.Templier@u-pem.fr"/>
+						<teacher name="Benjamin Templier" role="td" email="Benjamin.Templier@u-pem.fr" civilite="Mr"/>
 						
 					</who>
 
@@ -846,27 +841,27 @@ Le cours sera fondé sur une approche pragmatique de 4 grands domaines de compé
 					</bibliography>
 				</course-part>
 				<course-part name="Communication 2" coefficient="3" acronym="" APO="">
-					<volume course="0" td="17.5" tp="0" project="0" exam="0" homework="0" />
+					<volume course="0" td="17.5" tp="0" project="0" exam="0" homework="0"/>
 					<prerequisites>
 						<prerequisite>Aucun</prerequisite>
 					</prerequisites>
 
-					<evaluation cc="true" exam="false" project="false" tp="false" speech="true" report="false" />
+					<evaluation cc="true" exam="false" project="false" tp="false" speech="true" report="false"/>
 					
 					<who>
-						<accountant name="Bernadette Guillemot" email="" />
-						<teacher name="CAROUANA Laurent" role="td" email="" civilite="Mr" />
-						<teacher name="DA COSTA Juliette" role="td" email="" civilite="Ma" />
-						<teacher name="DUTRONC Pascale" role="td" email="" civilite="Ma" />
-						<teacher name="GELLERT Ghislaine" role="td" email="" civilite="Ma" />
-						<teacher name="GUILLEMOT Bernadette" role="td" email="" civilite="Ma" />
-						<teacher name="LAMBERT Betty" role="td" email="" civilite="Ma" />
-						<teacher name="LAMBILLON claire" role="td" email="" civilite="Ma" />
-						<teacher name="LLORENS florence" role="td" email="" civilite="Ma" />
-						<teacher name="MOULU Régis" role="td" email="" civilite="Mr" />
-						<teacher name="MYON Hubert" role="td" email="" civilite="Mr" />
-						<teacher name="ORDONNEZ Eva" role="td" email="" civilite="Ma" />
-						<teacher name="PACCOUD Béatrice" role="td" email="" civilite="Ma" />
+						<accountant name="Bernadette Guillemot" email=""/>
+						<teacher name="CAROUANA Laurent" role="td" email="" civilite="Mr"/>
+						<teacher name="DA COSTA Juliette" role="td" email="" civilite="Ma"/>
+						<teacher name="DUTRONC Pascale" role="td" email="" civilite="Ma"/>
+						<teacher name="GELLERT Ghislaine" role="td" email="" civilite="Ma"/>
+						<teacher name="GUILLEMOT Bernadette" role="td" email="" civilite="Ma"/>
+						<teacher name="LAMBERT Betty" role="td" email="" civilite="Ma"/>
+						<teacher name="LAMBILLON claire" role="td" email="" civilite="Ma"/>
+						<teacher name="LLORENS florence" role="td" email="" civilite="Ma"/>
+						<teacher name="MOULU Régis" role="td" email="" civilite="Mr"/>
+						<teacher name="MYON Hubert" role="td" email="" civilite="Mr"/>
+						<teacher name="ORDONNEZ Eva" role="td" email="" civilite="Ma"/>
+						<teacher name="PACCOUD Béatrice" role="td" email="" civilite="Ma"/>
 						
 					</who>
 					<content>
@@ -932,16 +927,16 @@ Le cours sera fondé sur une approche pragmatique de 4 grands domaines de compé
 
 				</course-part>
 				<course-part name="Droit" coefficient="3" acronym="" APO="">
-					<volume course="24" td="0" tp="0" project="0" exam="0" homework="0" />
+					<volume course="24" td="0" tp="0" project="0" exam="0" homework="0"/>
 <prerequisites>
 						<prerequisite>Aucun </prerequisite>
 					</prerequisites>
 
-					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false" />
+					<evaluation cc="false" exam="true" project="false" tp="false" speech="false" report="false"/>
 					
 					<who>
-						<accountant name="??" email="" />
-						<teacher name="??" role="cours" email="" civilite="Mr" />
+						<accountant name="??" email=""/>
+						<teacher name="??" role="cours" email="" civilite="Mr"/>
 						
 					</who>
 					<content>
