@@ -52,12 +52,17 @@ $(document).ready(function () {
 					
 					cpt++;
 					
-					$(this).find("course-part").each(function(){
-					
-						$("#year" + year + " #semestre" + semesterNumber + " .content .block ul").append("<li><a href='#' class='open'>" + $(this).attr("name") + "<span>content content content</span></a></li>");
-					
+					$(this).find("ue").each(function(){
+						
+						var unite_name = $(this).attr("name");
+						var unite_credits = $(this).attr("ects");
+						
+						$(this).find("course-part").each(function(){
+						
+							$("#year" + year + " #semestre" + semesterNumber + " .content .block ul").append("<li><a href='#' class='open'>" + $(this).attr("name") + "<span><p>UE : "+ unite_name +" </p><p>Crédits : "+ unite_credits +" </p><p>Coefficient : "+ $(this).attr("coefficient") +"</p></span></a></li>");
+							
+						});
 					});
-				
 				});
 			}
 		});
