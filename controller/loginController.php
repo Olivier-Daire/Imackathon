@@ -20,7 +20,7 @@
 			$input2 = InputData::checkForEmpty($password);
 
 			if ($input === -1 || $input2 === -1){
-				header("Location: ../view/connexion.php");
+				header("Location: ../view/back/connexion.php");
 			}
 			else {
 
@@ -32,10 +32,10 @@
 				if ($check === TRUE) {
 					session_start();
 					$_SESSION['userLogin'] = $user['login'];
-					header("Location: ../view/back.php");
+					header("Location: ../view/back/back.php");
 
 				} else {
-					header("Location: ../view/connexion.php");
+					header("Location: ../view/back/connexion.php");
 				}
 			}
 

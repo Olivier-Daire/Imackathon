@@ -1,4 +1,4 @@
-<?php include(__DIR__.'/../web/head.php'); ?>
+<?php include(__DIR__.'/../../web/head.php'); ?>
 <body>	
 	<div id="header">
 		<div id="fade">
@@ -6,7 +6,7 @@
 		</div>
 	<div id="password">
 		<h2>Changer de mot de passe</h2>
-			<form method="POST" action="../helpers/formHandler.php">
+			<form method="POST" action="../../helpers/formHandler.php">
 				<input type="text" name="formType" value="changePassword" hidden/>
 
 							<p><label for="oldPwd">Ancien mot de passe</label></p>

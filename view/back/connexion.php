@@ -1,4 +1,4 @@
-<?php include(__DIR__.'/../web/head.php'); ?>
+<?php include(__DIR__.'/../../web/head.php'); ?>
 <body>	
 	<div id="header">
 		<div id="fade">
@@ -6,7 +6,7 @@
 		</div>
 	<div id="connection">
 		<h2>Connexion</h2>
-		<form method="post" action="../helpers/formHandler.php">
+		<form method="post" action="../../helpers/formHandler.php">
 			<input type="text" name="formType" value="connexion" hidden/>
 
 					<p><label for="login">Pseudo</label></p>

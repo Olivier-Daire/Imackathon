@@ -1,4 +1,4 @@
-<?php include(__DIR__.'/../web/head.php'); ?>
+<?php include(__DIR__.'/../../web/head.php'); ?>
 <body>
 	<div id="header">
 		<div id="fade">
