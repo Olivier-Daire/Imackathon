@@ -191,4 +191,24 @@ body {
 	font-family: 'Oswald', cursive;
 	text-align: center;
 }	
+#connection button {
+  background-color: #F15D49;
+  width: 125px;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:none;
+  margin:5px;
+
+  	transition: background-color 0.2s;
+  	-webkit-transition: background-color 0.2s;;
+	-webkit-transition-timing-function: linear; /* Safari and Chrome */
+    transition-timing-function: linear;
+}
+
+#connection button:hover {
+  text-decoration: none;
+  background-color: #D15D49;
+}
 /**** END CONNEXION ****/
