@@ -59,7 +59,7 @@
 		</div>
 		<div class="middle2">
 			<h2>Vidéo</h2>
-			<iframe src="https://player.vimeo.com/video/128282019" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/11JooXLaaKY" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<script src="../../web/js/parallax.js"></script>
 	</body>
