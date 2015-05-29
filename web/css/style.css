@@ -130,9 +130,9 @@ body {
 #back nav ul li a{
 	text-decoration: none;
 	color: black;
-	-webkit-transition: font-size 1.5s;
-	-webkit-transition-timing-function: ease; /* Safari and Chrome */
-    transition-timing-function: ease;
+	-webkit-transition: font-size 1s;
+	-webkit-transition-timing-function: linear; /* Safari and Chrome */
+    transition-timing-function: linear;
 }
 
 #back nav ul li a:hover{
