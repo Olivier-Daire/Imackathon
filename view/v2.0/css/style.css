@@ -87,7 +87,7 @@ body{
 
 #container .year{
 	height: auto;
-
+	clear: both;
 }
 
 #container .year h1{
@@ -151,7 +151,7 @@ body{
 }*/
 
 .multimedia {
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 	position: relative;
 }
