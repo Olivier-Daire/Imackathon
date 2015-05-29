@@ -7,12 +7,30 @@ $(document).ready(function () {
 
 	$( window ).scroll(function() {
 		var st = $(this).scrollTop();
-		console.log(st);
 		$('#wrapper-content').css('top', 0.01 * st);
 		window_top = $(window).scrollTop();
 		lastScrollTop = st;		
 	});
 	
+	
+	var $content = $('#popupcontent');
+	var $window = $('#popupwindow');
+	
+	$('.open').click(function(){
+	    alert('runnning');
+	    var a = $(this).contents('span');
+	    //alert("coucou");
+	    console.log(a);
+	    $content.append(a.clone());
+	    $window.fadeIn(300);
+	});
+	$('.close').click(function(){
+	    //alert('running');
+	    var a = $content.contents('span');
+	    $window.fadeOut(300);
+	    $('#popupcontent span').remove();
+	});
+
 	
 	function getXMLByYear( filename, year ) {
 		var cpt = (year -1 )*2 +1;
@@ -34,11 +52,9 @@ $(document).ready(function () {
 					
 					$(this).find("course-part").each(function(){
 					
-						$("#year" + year + " #semestre" + semesterNumber + " .content .block ul").append("<li>" + $(this).attr("name") + "</li>");
+						$("#year" + year + " #semestre" + semesterNumber + " .content .block ul").append("<li><a onclick='return false' href='/' class='open'>" + $(this).attr("name") + "<span>content content content</span></a></li>");
 					
 					});
-					
-					
 				
 				});
 			}

@@ -353,3 +353,25 @@ body{
 		font-size: 20px;
 	}
 }
+
+#popupwindow{
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index:2;
+    top:0;
+    left: 0;
+    background-color:rgba(0,0,0,.7);
+    display:none;
+}
+#popupcontent{
+    width:150px;
+    margin-top:100px;
+    background-color:#666;
+    border-radius:5px;
+    border:1px #000 solid;
+    box-shadow:0px 0px 5px 1px rgba(0,0,0,.7);
+}
+.open span{
+    display:none;
+}
