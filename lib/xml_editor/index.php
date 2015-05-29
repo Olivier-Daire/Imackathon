@@ -30,7 +30,7 @@ $(document).ready(function(){
 			$("#actionButtons").show();																																				
 			xmlEditor.renderTree();
 			$("button#saveFile").show().click(function(){
-				GLR.messenger.show({msg:"Generating file...", mode:"loading"});
+				GLR.messenger.show({msg:"Generating file...", mode:"loading"})
 				$.post("do/saveXml.php", {xmlString:xmlEditor.getXmlAsString(), xmlFilename:"<?php echo $xmlFilename ?>"}, function(data){
 					if (data.error){
 						GLR.messenger.show({msg:data.error,mode:"error"});

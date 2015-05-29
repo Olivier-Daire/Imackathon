@@ -12,13 +12,13 @@ if (isset($_POST['xmlString'])){
 	$newFile = $filename.".edit.xml";
 
 	//write new data to the file, along with the old data 
-	$handle = fopen("../../../xml/".$newFile, "w"); 
-	if (fwrite($handle, $xmlString) === false) { 
-		echo "{error:\"Couldn't write to file.\"}";  
+	$handle = fopen("../../../xml/".$newFile, "w");
+	if (fwrite($handle, $xmlString) === false) {
+		echo json_encode(array("error"=>"Couldn't write to file."));
 	} 
 	else {
 		xmlController::updateXML($filename);
-		echo "{filename:\"".$newFile."\"}";
+		echo json_encode(array("filename"=>$newFile));
 	}
 	fclose($handle); 	
 }
