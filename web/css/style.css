@@ -1,5 +1,10 @@
 @import url('http://fonts.googleapis.com/css?family=Oswald');
 @import url('http://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+@import url('http://fonts.googleapis.com/css?family=Montserrat');
+@import url('http://fonts.googleapis.com/css?family=Petit+Formal+Script');
+@import url('http://fonts.googleapis.com/css?family=Roboto:100');
 
 html,
 body {
@@ -20,14 +25,18 @@ body {
 
 #header h2 {
 	margin-top: 50px;
-	font-family: 'Oswald', cursive;
+	font-family: 'Montserrat', cursive;
+	text-transform: uppercase;
 	text-align: center;
 }
 
 #header p {
 	margin-top: 30px;
-	font-family: 'Oswald', cursive;
+	font-family: 'Open sans', cursive;
 	text-align: center;
+	width: 60%;
+	margin: 0 auto 0;
+	line-height: 30px;
 }
 
 #header #fade {
@@ -122,7 +131,7 @@ body {
 }
 #back nav ul li{
 	padding: 15px;
-	font-family: 'Oswald', cursive;
+	font-family: 'Open sans', cursive;
 	font-size: 1.3em;
 
 }
@@ -149,7 +158,7 @@ body {
 	border-radius: 10px;
 }
 #list table th{
-	font-family: 'Oswald', cursive;
+	font-family: 'Open sans', cursive;
 	padding: 5px 10px 15px 10px;
 	font-size: 1.3em;
 	width: 33%;
@@ -159,7 +168,7 @@ body {
 	padding: 10px;
 	width: 33%;
 	text-align: center;
-	font-family: 'Oswald', cursive;
+	font-family: 'Open sans', cursive;
 }
 
 #list button, #uploadForm button {
@@ -186,7 +195,7 @@ body {
 #list, #uploadForm {
 	font-size: 1.1em;
 	text-align: center;
-	font-family: 'Oswald', cursive;
+	font-family: 'Open sans', cursive;
 }
 
 
@@ -197,7 +206,7 @@ body {
 #connection form input{
 	width: 200px;
 	height: 25px;
-	font-family: 'Oswald', cursive;
+	font-family: 'Open sans', cursive;
 	text-align: center;
 }	
 #connection button {
@@ -226,7 +235,7 @@ body {
 #password form input{
 	width: 200px;
 	height: 25px;
-	font-family: 'Oswald', cursive;
+	font-family: 'Open sans', cursive;
 	text-align: center;
 }	
 #password button {
