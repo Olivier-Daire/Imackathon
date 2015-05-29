@@ -98,6 +98,14 @@ body{
 	margin-bottom: 10px;
 }
 
+#container .year .separate{
+	height: 2px;
+	width: 100px;
+	margin: auto;
+	margin-bottom: 10px;
+	background: #B0D5E9;
+}
+
 #container .year .column{
 	height: auto;
 	width: 49%;

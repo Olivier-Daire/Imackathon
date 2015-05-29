@@ -21,11 +21,11 @@ $(document).ready(function () {
 			cache: false,
 			dataType: "xml",
 			success: function(xml) {
-				$("#year" + year ).append("<h1> Année " + year+ "</h1>");
+				$("#year" + year ).append("<div class='separate'></div><h1> Année " + year+ "</h1>");
 				$(xml).find('semester').each(function(){
 					var semesterNumber = $(this).attr("number");
 					
-					$("#year" + year ).append("<div class='column' id='semestre" + semesterNumber + "'><div class='content'><h3>Semestre" + semesterNumber + "</h3><div class='block'><ul></ul></div></div></div>");
+					$("#year" + year ).append("<div class='column' id='semestre" + semesterNumber + "'><div class='content'><h3>Semestre " + semesterNumber + "</h3><div class='block'><ul></ul></div></div></div>");
 					
 					$(this).find("course-part").each(function(){
 					
