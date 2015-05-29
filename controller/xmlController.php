@@ -30,7 +30,7 @@
 			unlink("../xml/".$xmlFile['filename']);
 			Xml::deleteXMLFile($idFile);
 
-			header("Location: ../view/list.php");
+			header("Location: ../view/back/list.php");
 		}
 
 		/* Scan le dossier xml/ et met à jour la bdd avec les fichiers trouvés */
