@@ -45,7 +45,7 @@
 						else {
 							GLR.messenger.inform({msg:"XML sauvegardé.", mode:"success"});
 							if (!$("button#viewFile").length){
-								$("<button id='viewFile'>View Updated File</button>")
+								$("<button id='viewFile'>Voir le fichier mis à jour</button>")
 									.appendTo("#actionButtons div")
 									.click(function(){ window.open("../../xml/"+data.filename); });
 							}
@@ -69,7 +69,7 @@
 	<div id="xml" style="display:none;"></div>
 	<div id="actionButtons" style="display:none;">
 		<div></div>
-		<button id="saveFile">Save XML</button>
+		<button id="saveFile">Sauvegarder le XML</button>
 	</div>
 	<div id="nodePath"></div>
 
