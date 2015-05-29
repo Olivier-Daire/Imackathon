@@ -129,6 +129,7 @@ body {
 #back nav ul li a{
 	text-decoration: none;
 	color: black;
+	transition: font-size 0.2s;
 	-webkit-transition: font-size 0.2s;
 	-webkit-transition-timing-function: linear; /* Safari and Chrome */
     transition-timing-function: linear;
@@ -147,13 +148,37 @@ body {
 }
 #list table th{
 	font-family: 'Oswald', cursive;
-	padding: 10px;
+	padding: 5px 10px 15px 10px;
+	font-size: 1.3em;
+	width: 33%;
 }
 #list table td{
-	padding: 5px;
+	font-size: 1.1em;
+	padding: 10px;
 	width: 33%;
 	text-align: center;
 	font-family: 'Oswald', cursive;
+}
+
+#list button {
+  background-color: #F15D49;
+  width: 125px;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:none;
+  margin:5px;
+
+  	transition: background-color 0.2s;
+  	-webkit-transition: background-color 0.2s;;
+	-webkit-transition-timing-function: linear; /* Safari and Chrome */
+    transition-timing-function: linear;
+}
+
+#list button:hover {
+  text-decoration: none;
+  background-color: #D15D49;
 }
 
 /**** END BACK ****/
