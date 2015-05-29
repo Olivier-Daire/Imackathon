@@ -1099,7 +1099,7 @@ Les managers le comprennent vite … ou prennent le risque de disparaître avec 
         <teacher role="cours" name="" civilite="Ma"/>
       </who>
       <content>
-<objective>
+		<objective>
                     Une étude de sociologie rapporte que 95% des
               étudiants qui avaient un véritable projet de
               vie (au début de leur formation) l’ont
@@ -1121,9 +1121,6 @@ Les managers le comprennent vite … ou prennent le risque de disparaître avec 
 
         <plan>
 
-
-         
-
             <part>
              Gérer ses temps personnels et
               professionnels
@@ -1136,16 +1133,15 @@ Les managers le comprennent vite … ou prennent le risque de disparaître avec 
                 temps
               </part>
             </part>
+
          <part>
-         
             METHODE PEDAGOGIQUE
             <part>
               Chaque thème est introduit par un exposé
               complété par un travail en groupe.
             </part>
           </part>
-          
-<!-- travail personnel : aucun -->
+
         </plan>
       </content>
       
@@ -1164,17 +1160,11 @@ Les managers le comprennent vite … ou prennent le risque de disparaître avec 
 
 
 		</semester>
-/home/constant/IMAC/Maquettes/cdm/trunk/ooo3/PUBLISHED/IMAC3.odt
 
-			
-
-			
 
 		<semester  number="2" APO="">
 			<ue name="Stage" ects="30t " acronym="" APO=""/>
 		</semester>
-
-
 
 	</year>
 </track>
