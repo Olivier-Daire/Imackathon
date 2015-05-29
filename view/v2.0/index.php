@@ -17,12 +17,11 @@
 	</head>
 
 	<body>
-		<div id="wrapper-content">
-			<div id="header">
-				<img src="images/logo.png">
-			</div>
-			<div id="container">
-			</div>
+		<div id="header">
+			<img src="images/logo.png">
+		</div>
+		<div id="container">
+		
 		</div>
 	</body>
 </html>
