@@ -43,7 +43,7 @@
 							GLR.messenger.show({msg:data.error,mode:"error"});
 						}
 						else {
-							GLR.messenger.inform({msg:"Done.", mode:"success"});
+							GLR.messenger.inform({msg:"XML sauvegardé.", mode:"success"});
 							if (!$("button#viewFile").length){
 								$("<button id='viewFile'>View Updated File</button>")
 									.appendTo("#actionButtons div")
