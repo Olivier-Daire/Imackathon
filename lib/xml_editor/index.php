@@ -23,7 +23,7 @@
 <script type="text/javascript" src="js/ext/GLR/GLR.js"></script>
 <script type="text/javascript" src="js/ext/GLR/GLR.messenger.js"></script>
 <script type="text/javascript" src="js/loc/xmlEditor.js"></script>
-<link href="css/main.css" type="text/css" rel="stylesheet"/>
+<link href="../../web/css/xmlEditor.css" type="text/css" rel="stylesheet"/>
 <script type="text/javascript">
 	$(document).ready(function(){
 		<?php if ($target && $xml){ ?>

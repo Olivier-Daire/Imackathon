@@ -109,7 +109,6 @@ body {
 
 
 /**** BACK ****/
-
 #back nav{
  	width: 50%;
  	margin:0 auto;
@@ -140,8 +139,24 @@ body {
 
 }
 
-/**** END BACK ****/
+#list table{
+	width:80%;
+	margin:0 auto;
+	background: rgba(1,1,1,0.1);
+	border-radius: 10px;
+}
+#list table th{
+	font-family: 'Oswald', cursive;
+	padding: 10px;
+}
+#list table td{
+	padding: 5px;
+	width: 33%;
+	text-align: center;
+	font-family: 'Oswald', cursive;
+}
 
+/**** END BACK ****/
 
 
 /**** CONNEXION ****/
@@ -150,6 +165,5 @@ body {
 	height: 25px;
 	font-family: 'Oswald', cursive;
 	text-align: center;
-}
-	
+}	
 /**** END CONNEXION ****/
