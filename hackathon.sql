@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.1.4
+-- version 4.2.6deb1
 -- http://www.phpmyadmin.net
 --
--- Client :  127.0.0.1
--- Généré le :  Jeu 28 Mai 2015 à 16:11
--- Version du serveur :  5.6.15-log
--- Version de PHP :  5.5.8
+-- Client :  localhost
+-- Généré le :  Ven 29 Mai 2015 à 12:38
+-- Version du serveur :  5.5.43-0ubuntu0.14.10.1
+-- Version de PHP :  5.5.12-2ubuntu4.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -30,10 +30,9 @@ USE `hackathon`;
 
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE IF NOT EXISTS `user` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+`id` int(11) NOT NULL,
   `login` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  PRIMARY KEY (`id`)
+  `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 --
@@ -51,22 +50,41 @@ INSERT INTO `user` (`id`, `login`, `password`) VALUES
 
 DROP TABLE IF EXISTS `xml`;
 CREATE TABLE IF NOT EXISTS `xml` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+`id` int(11) NOT NULL,
   `filename` varchar(255) NOT NULL,
-  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `editor` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
 
 --
--- Contenu de la table `xml`
+-- Index pour les tables exportées
 --
 
-INSERT INTO `xml` (`id`, `filename`, `date`, `editor`) VALUES
-(1, 'IMAC1.xml', '2015-05-28 13:49:51', 1),
-(2, 'IMAC2.xml', '2015-05-28 13:49:51', 1),
-(3, 'IMAC3.xml', '2015-05-28 13:49:51', 1);
+--
+-- Index pour la table `user`
+--
+ALTER TABLE `user`
+ ADD PRIMARY KEY (`id`);
 
+--
+-- Index pour la table `xml`
+--
+ALTER TABLE `xml`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT pour les tables exportées
+--
+
+--
+-- AUTO_INCREMENT pour la table `user`
+--
+ALTER TABLE `user`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT pour la table `xml`
+--
+ALTER TABLE `xml`
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=9;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
