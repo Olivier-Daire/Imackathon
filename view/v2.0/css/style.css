@@ -1,9 +1,10 @@
 @import url('http://fonts.googleapis.com/css?family=Oswald');
 @import url('http://fonts.googleapis.com/css?family=Josefin+Slab');
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
-@import url('http://fonts.googleapis.com/css?family=Roboto');
+
 @import url('http://fonts.googleapis.com/css?family=Montserrat');
 @import url('http://fonts.googleapis.com/css?family=Petit+Formal+Script');
+@import url('http://fonts.googleapis.com/css?family=Roboto:100');
 
 html,
 body {
@@ -118,23 +119,25 @@ body{
 #container .year .column .content{
 	margin: auto;
 	display: block;
-	background-image: linear-gradient(-90deg, #E19398, #E19693);
+	background-image: linear-gradient(-90deg, #A9F4F9, #A9E6F9);
 	width: 60vh;
 	padding: 1em 1em 1em 0em;
-	font-family: 'Petit Formal Script', cursive;
+	font-family: 'Roboto', sans-serif;
 }
 
 #container .year .column .content h3{
 	margin: auto;
 	margin-left: -30px;
-	margin-top: -29px;
+	margin-top: -50px;
 	position: absolute;
+	font-size: 3em;
+	font-family: 'Petit Formal Script', cursive;
 }
 
 
 #container .year .column .content .block{
 	margin: auto;
-	margin-left: -46px;
+	margin-left: -60px;
 	display: block;
 }
 
@@ -142,10 +145,10 @@ body{
 	list-style: none;
 }
 
-#container .year .column .content .block ul li::before{
+/*#container .year .column .content .block ul li::before{
 	content: "«\00A0";
   color: blue;
-}
+}*/
 
 
 #wrapper-content {
