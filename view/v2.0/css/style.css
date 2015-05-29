@@ -282,3 +282,12 @@ body{
 			-webkit-transform: rotate(-360deg) translateY(0px);
 	}
 }
+
+@media only screen and (min-width : 800px) and (max-width : 1440px) {
+	.fifty p {
+		font-size: 14px;
+	}
+	.fifty h2 {
+		font-size: 20px;
+	}
+}
