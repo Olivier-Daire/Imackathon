@@ -1,8 +1,14 @@
+<!DOCTYPE html>
+<html>
 <?php include(__DIR__.'/../web/head.php'); ?>
 <body>
-
-		    	<h1>Connexion</h1>
-
+<body>	
+	<div id="header">
+		<div id="fade">
+			<div id="logo"></div>
+		</div>
+	<div id="connection">
+		<h2>Connexion</h2>
 		<form method="post" action="../helpers/formHandler.php">
 			<input type="text" name="formType" value="connexion" hidden/>
 
@@ -13,9 +19,9 @@
 				   	<p><label for="password">Mot de passe</label></p>
 				   	<p><input type="password" class="u-full-width" name="password" id="password" required/></p>
 
-		   			<button type="submit">Connexion</button>
+		   			<p><button type="submit">Connexion</button></p>
 
 		</form>
-
+	</div>
 </body>
 </html>

@@ -140,4 +140,16 @@ body {
 
 }
 
+/**** END BACK ****/
 
+
+
+/**** CONNEXION ****/
+#connection form input{
+	width: 200px;
+	height: 25px;
+	font-family: 'Oswald', cursive;
+	text-align: center;
+}
+	
+/**** END CONNEXION ****/
