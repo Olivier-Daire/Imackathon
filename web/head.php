@@ -1,7 +1,7 @@
 <?php
 	session_start();
 
-	if (!isset($_SESSION['userLogin'])) {
+	if (!isset($_SESSION['userLogin']) && basename($_SERVER['PHP_SELF']) != "connexion.php") {
 		header("Location: ../view/connexion.php");
 	}
 
