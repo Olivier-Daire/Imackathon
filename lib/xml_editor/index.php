@@ -1,5 +1,4 @@
 <?php
-	// FIXME file path and name hardcoded
 	if(!isset($_SESSION)) session_start();
 	$xmlFilename = $_SESSION['filename'];
 	$target = "../../xml/".$xmlFilename;
