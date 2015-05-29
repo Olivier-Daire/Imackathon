@@ -164,8 +164,8 @@ body{
 	border: 1px solid #436D77;
 	top: 15%;
 	left: 90%;
-  -webkit-animation: animcool 25s linear infinite;
-  animation: animcool 25s linear infinite;
+  -webkit-animation: animcool 18s linear infinite;
+  animation: animcool 18s linear infinite;
 }
 
 .shape.circle.small {
@@ -180,6 +180,8 @@ body{
 	height: 60px;
 	top: 45%;
 	left: 35%;
+  -webkit-animation: animcool2 15s linear infinite;
+  animation: animcool2 15s linear infinite;
 }
 
 @keyframes animcool {
@@ -206,5 +208,32 @@ body{
 		}
 	100%{
 			-webkit-transform: rotate(360deg) translateY(0px);
+	}
+}
+
+@keyframes animcool2 {
+	0%  {
+			transform: rotate(0deg) translateY(0px);
+			border-color: #436D77;
+		}
+	50% {
+			transform: translateY(300px) rotate(-180deg);
+			border-color: #F15D49;
+		}
+	100%{
+			transform: rotate(-360deg) translateY(0px);
+			border-color: #436D77;
+	}
+}
+
+@-webkit-keyframes animcool2 {
+	0%  {
+			-webkit-transform: rotate(0deg) translateY(0px);
+		}
+	50% {
+			-webkit-transform: translateY(300px) rotate(-180deg);
+		}
+	100%{
+			-webkit-transform: rotate(-360deg) translateY(0px);
 	}
 }
