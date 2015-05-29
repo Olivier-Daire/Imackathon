@@ -15,23 +15,30 @@ $(document).ready(function () {
 	
 	
 	function getXMLByYear( filename, year ) {
+		var cpt = (year -1 )*2 +1;
 		$.ajax({
 			type: "GET",
 			url: filename,
 			cache: false,
 			dataType: "xml",
 			success: function(xml) {
-				$("#year" + year ).append("<div class='separate'></div><h1> Année " + year+ "</h1>");
+				
+				$("#year" + year ).append("<div class='separate'></div>");
 				$(xml).find('semester').each(function(){
+				
 					var semesterNumber = $(this).attr("number");
 					
-					$("#year" + year ).append("<div class='column' id='semestre" + semesterNumber + "'><div class='content'><h3>Semestre " + semesterNumber + "</h3><div class='block'><ul></ul></div></div></div>");
+					$("#year" + year ).append("<div class='column' id='semestre" + semesterNumber + "'><div class='content'><h3>Semestre " + cpt + "</h3><div class='block'><ul></ul></div></div></div>");
+					
+					cpt++;
 					
 					$(this).find("course-part").each(function(){
 					
 						$("#year" + year + " #semestre" + semesterNumber + " .content .block ul").append("<li>" + $(this).attr("name") + "</li>");
 					
 					});
+					
+					
 				
 				});
 			}
