@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	
+	console.log("aaaaa");
 	var lastScrollTop = 0;
 	var window_height = $(window).height();
 	var window_top = $(window).scrollTop();
@@ -16,15 +16,17 @@ $(document).ready(function () {
 	var $content = $('#popupcontent');
 	var $window = $('#popupwindow');
 	
-	$('.open').click(function(){
-	    alert('runnning');
+	$(document).on('click', '.open', function(e){
+		e.preventDefault();
+
 	    var a = $(this).contents('span');
 	    //alert("coucou");
 	    console.log(a);
 	    $content.append(a.clone());
 	    $window.fadeIn(300);
 	});
-	$('.close').click(function(){
+	$(document).on('click','.close', function(e){
+		e.preventDefault();
 	    //alert('running');
 	    var a = $content.contents('span');
 	    $window.fadeOut(300);
@@ -52,7 +54,7 @@ $(document).ready(function () {
 					
 					$(this).find("course-part").each(function(){
 					
-						$("#year" + year + " #semestre" + semesterNumber + " .content .block ul").append("<li><a onclick='return false' href='/' class='open'>" + $(this).attr("name") + "<span>content content content</span></a></li>");
+						$("#year" + year + " #semestre" + semesterNumber + " .content .block ul").append("<li><a href='#' class='open'>" + $(this).attr("name") + "<span>content content content</span></a></li>");
 					
 					});
 				
