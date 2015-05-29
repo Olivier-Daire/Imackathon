@@ -12,8 +12,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>SubChild.com - Live XML Editor</title>
-<script type="text/javascript" src="js/ext/jquery-1.4.js"></script>
-<!-- <script type="text/javascript" src="js/ext/jquery-color.js"></script> -->
+<script type="text/javascript" src="js/ext/jquery-2.1.4.min.js"></script>
+<script src="js/ext/jquery.browser.min.js"></script>
 <script type="text/javascript" src="js/ext/GLR/GLR.js"></script>
 <script type="text/javascript" src="js/ext/GLR/GLR.messenger.js"></script>
 <script type="text/javascript" src="js/loc/xmlEditor.js"></script>
