@@ -73,8 +73,8 @@ form#uploadForm label {
     color: #fff;
 }
 div#xml {
-    padding: 14px 10px 10px 10px;
-    margin: 10px 10px 0 10px;
+    padding: 14px;
+    margin: 14px 0;
     background-color: #fff;
     -moz-border-radius-topleft: 5px;
     -moz-border-radius-topright: 5px;
