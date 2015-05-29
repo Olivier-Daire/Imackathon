@@ -10,7 +10,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url("../images/mouchetes.png");
+	background-image: url("../../images/mouchetes.png");
 	background-repeat: repeat;
 	position: relative;
 }
@@ -70,7 +70,7 @@ a {
   	height: 350px;
   	padding-top: 40px;
 	display: block;
-	background: url('../images/logostack.png') left center no-repeat;
+	background: url('../../images/logostack.png') left center no-repeat;
 	animation: play 1.25s steps(30) forwards;
 	-webkit-animation: play 1.25s steps(30) forwards;
 }
@@ -382,4 +382,8 @@ a {
 }
 .open span{
     display:none;
+}
+
+#container .year#year3 #semestre2{
+	display: none;
 }
