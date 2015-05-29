@@ -2,7 +2,7 @@
 
 	if(!isset($_SESSION)) session_start();
 	if (!isset($_SESSION['userLogin']) && basename($_SERVER['PHP_SELF']) != "connexion.php") {
-		header("Location: ../view/connexion.php");
+		header("Location: ../../view/connexion.php");
 	}
 
 	$xmlFilename = $_SESSION['filename'];
@@ -18,8 +18,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title></title>
-<script type="text/javascript" src="js/ext/jquery-2.1.4.min.js"></script>
-<script src="js/ext/jquery.browser.min.js"></script>
+<script type="text/javascript" src="js/ext/jquery-1.4.min.js"></script>
 <script type="text/javascript" src="js/ext/GLR/GLR.js"></script>
 <script type="text/javascript" src="js/ext/GLR/GLR.messenger.js"></script>
 <script type="text/javascript" src="js/loc/xmlEditor.js"></script>
