@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
 <?php include(__DIR__.'/../web/head.php'); ?>
-<body>
 <body>	
 	<div id="header">
 		<div id="fade">
