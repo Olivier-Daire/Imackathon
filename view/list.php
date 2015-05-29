@@ -2,6 +2,7 @@
 	include(__DIR__.'/../web/head.php');
 	require_once __DIR__.'/../controller/xmlController.php';
 
+	xmlController::scanDirectory();
 	$xmls = xmlController::getXMLFiles();
 ?>
 	<body>
@@ -34,5 +35,13 @@
 
 		</table>
 		
+		<form method="post" action="../helpers/formHandler.php" enctype="multipart/form-data">
+		<input type="text" name="formType" value="upload" hidden/>
+		<input type="hidden" name="MAX_FILE_SIZE" value="1048576" /> 		
+		<input type='file' name='fichierXML' value='upload' />
+		<input type="submit" name="submit" value="Envoyer" />
+		</form>
+	
+	
 	</body>
 </html>

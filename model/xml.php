@@ -34,6 +34,18 @@
 		 	return $result;
 		}
 
+		public static function getXMLFileByName($filename){
+			$connexion = DBConnexion::connectToDB();
+	
+			$query = $connexion->prepare('SELECT * FROM xml WHERE filename = :filename');
+			$query->execute(array('filename' => $filename));
+
+			$result = $query->fetch(PDO::FETCH_ASSOC);
+
+		 	return $result;
+		}
+
+
 
 		/**
 		 * f
@@ -44,9 +56,6 @@
 			$query = $connexion->prepare('INSERT INTO xml (filename) VALUES (:filename)');
 			$query->execute(array('filename' => $nameFile));
 
-			$result = $query->fetch(PDO::FETCH_ASSOC);
-
-		 	return $result;
 		}
 
 
